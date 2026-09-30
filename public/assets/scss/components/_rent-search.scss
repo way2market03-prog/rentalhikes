@@ -1,0 +1,492 @@
+// assets/scss/components/_rent-search.scss
+// Styles for the Others1 (rent search) component.
+// Add:  @import 'rent-search';  (same way the other partials are imported in _index.scss)
+
+.search-filter-form {
+	overflow: visible !important;
+}
+
+.rs {
+	--rs-accent: #cdd02e;
+	--rs-ink: #1a1a1a;
+	--rs-line: #e3e3e3;
+	--rs-mark: #7c5cf0;
+	font-family: inherit;
+	color: var(--rs-ink);
+
+	* {
+		box-sizing: border-box;
+	}
+
+	// ---------- tabs ----------
+	&-tabs {
+		display: flex;
+		width: fit-content;
+		max-width: 100%;
+		background: #f1f1f1;
+		border-radius: 12px 12px 0 0;
+		overflow: hidden;
+	}
+
+	&-tab {
+		flex: 1 1 0;
+		min-width: 150px;
+		border: 0;
+		background: transparent;
+		padding: 16px 28px;
+		font-weight: 600;
+		text-align: center;
+		cursor: pointer;
+		white-space: nowrap;
+
+		&.active {
+			background: var(--rs-accent);
+		}
+	}
+
+	&-panel {
+		background: #fff;
+		padding: 24px;
+		border-radius: 0 12px 12px 12px;
+		box-shadow: 0 6px 24px rgba(0, 0, 0, 0.08);
+	}
+
+	// ---------- search bar ----------
+	&-row {
+		display: flex;
+		align-items: center;
+		gap: 12px;
+		padding: 8px;
+		border: 1px solid var(--rs-line);
+		border-radius: 14px;
+		background: #fff;
+		transition: border-color 0.15s, box-shadow 0.15s;
+
+		&:focus-within {
+			border-color: var(--rs-accent);
+			box-shadow: 0 0 0 3px rgba(205, 208, 46, 0.28);
+		}
+	}
+
+	&-field {
+		position: relative;
+		display: flex;
+		align-items: center;
+
+		&.city {
+			width: 210px;
+			flex: none;
+			padding-right: 12px;
+			border-right: 1px solid var(--rs-line);
+		}
+
+		&.grow {
+			flex: 1;
+			min-width: 0;
+		}
+
+		&.adv {
+			flex: none;
+		}
+	}
+
+	// visually hidden (screen-reader only) labels
+	&-sr {
+		position: absolute;
+		width: 1px;
+		height: 1px;
+		overflow: hidden;
+		clip: rect(0 0 0 0);
+		white-space: nowrap;
+	}
+
+	&-input,
+	&-btn-field {
+		height: 48px;
+		padding: 0 14px;
+		border: 0;
+		border-radius: 10px;
+		background: transparent;
+		color: inherit;
+		font-size: 15px;
+		width: 100%;
+		text-align: left;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		gap: 10px;
+		cursor: pointer;
+	}
+
+	&-input {
+		cursor: text;
+
+		&:focus {
+			outline: 0;
+		}
+	}
+
+	&-btn-field {
+		&:hover {
+			background: #f4f4f4;
+		}
+
+		&.adv-btn {
+			width: auto;
+			justify-content: center;
+			border: 1px solid var(--rs-line);
+			background: #f7f7f7;
+			font-weight: 600;
+
+			&.open {
+				background: var(--rs-accent);
+				border-color: var(--rs-accent);
+			}
+		}
+	}
+
+	&-menu {
+		position: absolute;
+		top: 100%;
+		left: 0;
+		z-index: 50;
+		margin-top: 6px;
+		width: 260px;
+		max-height: 260px;
+		overflow-y: auto;
+		background: #fff;
+		border-radius: 10px;
+		padding: 12px;
+		box-shadow: 0 8px 28px rgba(0, 0, 0, 0.18);
+
+		input[type='text'] {
+			width: 100%;
+			height: 38px;
+			padding: 0 10px;
+			border: 1px solid var(--rs-line);
+			border-radius: 6px;
+			margin-bottom: 8px;
+		}
+	}
+
+	&-check {
+		display: flex;
+		align-items: center;
+		gap: 8px;
+		padding: 6px 2px;
+		cursor: pointer;
+	}
+
+	&-go {
+		height: 48px;
+		padding: 0 32px;
+		border: 0;
+		border-radius: 10px;
+		background: var(--rs-accent);
+		color: var(--rs-ink);
+		font-weight: 700;
+		display: inline-flex;
+		align-items: center;
+		gap: 8px;
+		cursor: pointer;
+		text-decoration: none;
+	}
+
+	// ---------- current location ----------
+	&-loc {
+		width: 44px;
+		height: 44px;
+		flex: none;
+		border-radius: 50%;
+		border: 0;
+		background: #eef1ff;
+		color: #3b5bdb;
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		cursor: pointer;
+
+		&.busy svg {
+			animation: rs-spin 1s linear infinite;
+		}
+
+		&.on {
+			background: #3b5bdb;
+			color: #fff;
+		}
+	}
+
+	&-note {
+		margin-top: 10px;
+		font-size: 13px;
+		color: #555;
+
+		&.err {
+			color: #c62828;
+		}
+	}
+
+	// ---------- advanced filters (content + right nav) ----------
+	&-adv {
+		margin-top: 24px;
+		padding-top: 8px;
+		border-top: 1px solid var(--rs-line);
+		display: grid;
+		grid-template-columns: 1fr 260px;
+		gap: 24px;
+	}
+
+	&-body {
+		padding: 16px 0;
+		min-height: 150px;
+	}
+
+	&-title {
+		font-weight: 600;
+		margin: 0 0 14px;
+	}
+
+	&-chips {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 10px;
+	}
+
+	&-chip {
+		padding: 8px 18px;
+		border: 1px solid var(--rs-line);
+		border-radius: 999px;
+		background: #fff;
+		cursor: pointer;
+		font-size: 14px;
+
+		&.on {
+			background: var(--rs-accent);
+			border-color: var(--rs-accent);
+			font-weight: 600;
+		}
+	}
+
+	&-boxes {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 16px 48px;
+	}
+
+	&-box {
+		display: inline-flex;
+		align-items: center;
+		gap: 10px;
+		cursor: pointer;
+		font-size: 15px;
+
+		i {
+			width: 26px;
+			height: 26px;
+			border: 1.5px solid #555;
+			border-radius: 4px;
+			display: inline-flex;
+			align-items: center;
+			justify-content: center;
+			font-style: normal;
+			font-size: 16px;
+			line-height: 1;
+		}
+
+		&.on i {
+			background: var(--rs-accent);
+			border-color: var(--rs-accent);
+		}
+	}
+
+	&-nav {
+		border-left: 1px solid var(--rs-line);
+		padding: 8px 0;
+		max-height: 300px;
+		overflow-y: auto;
+
+		button {
+			position: relative;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			width: 100%;
+			padding: 12px 20px;
+			border: 0;
+			background: none;
+			text-align: left;
+			font-size: 15px;
+			cursor: pointer;
+
+			&.active {
+				font-weight: 600;
+
+				&::before {
+					content: '';
+					position: absolute;
+					left: -1px;
+					top: 8px;
+					bottom: 8px;
+					width: 4px;
+					border-radius: 4px;
+					background: var(--rs-mark);
+				}
+			}
+		}
+	}
+
+	&-count {
+		min-width: 20px;
+		height: 20px;
+		padding: 0 6px;
+		border-radius: 10px;
+		background: var(--rs-accent);
+		font-size: 12px;
+		font-weight: 700;
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	// ---------- budget slider ----------
+	&-slider {
+		position: relative;
+		height: 28px;
+		max-width: 560px;
+
+		input[type='range'] {
+			position: absolute;
+			left: 0;
+			top: 0;
+			width: 100%;
+			height: 28px;
+			margin: 0;
+			background: none;
+			pointer-events: none;
+			-webkit-appearance: none;
+			appearance: none;
+
+			&::-webkit-slider-thumb {
+				pointer-events: auto;
+				-webkit-appearance: none;
+				width: 22px;
+				height: 22px;
+				border-radius: 50%;
+				background: #fff;
+				border: 3px solid var(--rs-accent);
+				cursor: pointer;
+			}
+
+			&::-moz-range-thumb {
+				pointer-events: auto;
+				width: 16px;
+				height: 16px;
+				border-radius: 50%;
+				background: #fff;
+				border: 3px solid var(--rs-accent);
+				cursor: pointer;
+			}
+		}
+	}
+
+	&-track,
+	&-fill {
+		position: absolute;
+		top: 12px;
+		height: 4px;
+		border-radius: 4px;
+	}
+
+	&-track {
+		left: 0;
+		right: 0;
+		background: #ddd;
+	}
+
+	&-fill {
+		background: var(--rs-accent);
+	}
+
+	// ---------- mobile ----------
+	@media (max-width: 767px) {
+		&-tabs {
+			width: 100%;
+		}
+
+		&-tab {
+			min-width: 0;
+			padding: 14px 12px;
+		}
+
+		&-row {
+			flex-wrap: wrap;
+		}
+
+		&-field {
+			&.city {
+				width: 100%;
+				padding: 0 0 8px;
+				border-right: 0;
+				border-bottom: 1px solid var(--rs-line);
+			}
+
+			&.grow {
+				flex: 1 1 100%;
+			}
+
+			&.adv {
+				flex: 1;
+			}
+		}
+
+		&-btn-field.adv-btn {
+			width: 100%;
+		}
+
+		&-go {
+			flex: 1;
+			justify-content: center;
+		}
+
+		&-menu {
+			width: 100%;
+		}
+
+		&-adv {
+			grid-template-columns: 1fr;
+			gap: 0;
+		}
+
+		&-nav {
+			order: -1;
+			border-left: 0;
+			border-bottom: 1px solid var(--rs-line);
+			display: flex;
+			overflow-x: auto;
+			max-height: none;
+			padding: 0;
+
+			button {
+				width: auto;
+				white-space: nowrap;
+				gap: 8px;
+				padding: 12px 14px;
+
+				&.active::before {
+					left: 10px;
+					right: 10px;
+					top: auto;
+					bottom: 0;
+					width: auto;
+					height: 3px;
+				}
+			}
+		}
+	}
+}
+
+@keyframes rs-spin {
+	to {
+		transform: rotate(360deg);
+	}
+}

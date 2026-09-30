@@ -41,19 +41,19 @@ export default function Footer1() {
                                 <div className="space4" />
                                 <ul>
                                     <li>
-                                        <Link href="/">Home</Link>
+                                        <Link href="#">Home</Link>
                                     </li>
                                     <li>
-                                        <Link href="/sidebar-grid">Listing</Link>
+                                        <Link href="#">Listing</Link>
                                     </li>
                                     <li>
-                                        <Link href="/property-halfmap-grid">Properties</Link>
+                                        <Link href="#">Properties</Link>
                                     </li>
                                     <li>
-                                        <Link href="/blog">Our Blog</Link>
+                                        <Link href="#">Our Blog</Link>
                                     </li>
                                     <li>
-                                        <Link href="/dashboard">Dashboard</Link>
+                                        <Link href="#">Dashboard</Link>
                                     </li>
                                 </ul>
                             </div>

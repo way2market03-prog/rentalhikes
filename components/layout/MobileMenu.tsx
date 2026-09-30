@@ -19,7 +19,7 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }: any) {
                                     </Link>
                                 </div>
                                 <div className="mobile-right d-flex gap-1 align-items-center">
-                                    <Link className="circle-button user-icon" href="/my-profile">
+                                    <Link className="circle-button user-icon" href="/my-profile" style={{ display: "none" }}>
                                         <svg xmlns="http://www.w3.org/2000/svg" width={14} height={14} viewBox="0 0 14 14" fill="none">
                                             <g clipPath="url(#clip0_4104_7939)">
                                                 <path d="M7 0C4.96456 0 3.30859 1.65596 3.30859 3.69141C3.30859 5.72685 4.96456 7.38281 7 7.38281C9.03544 7.38281 10.6914 5.72685 10.6914 3.69141C10.6914 1.65596 9.03544 0 7 0Z" fill="#073B3A" />
@@ -68,11 +68,11 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }: any) {
                     <div className="mobile-nav mobile-nav1">
                         <ul className="mobile-nav-list nav-list1">
                             <li>
-                                <Link href="#">Home </Link>
-                                <span className={`submenu-button ${isAccordion == 1 ? "submenu-opened" : ""}`} onClick={() => handleAccordion(1)}>
+                                <Link href="/">Home</Link>
+                                <span style={{ display: "none" }} className={`submenu-button ${isAccordion == 1 ? "submenu-opened" : ""}`} onClick={() => handleAccordion(1)}>
                                     <em></em>
                                 </span>
-                                <ul className="sub-menu" style={{ display: `${isAccordion == 1 ? "block" : "none"}` }}>
+                                <ul className="sub-menu" style={{ display: "none" }}>
                                     <li>
                                         <Link href="/">Home One</Link>
                                     </li>
@@ -88,6 +88,9 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }: any) {
                                 </ul>
                             </li>
                             <li>
+                                <Link href="/about-us">About Us</Link>
+                            </li>
+                            <li style={{ display: "none" }}>
                                 <Link href="#">Listing</Link>
                                 <span className={`submenu-button ${isAccordion == 2 ? "submenu-opened" : ""}`} onClick={() => handleAccordion(2)}>
                                     <em></em>
@@ -113,7 +116,7 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }: any) {
                                     </li>
                                 </ul>
                             </li>
-                            <li>
+                            <li style={{ display: "none" }}>
                                 <Link href="#">Properties</Link>
                                 <span className={`submenu-button ${isAccordion == 3 ? "submenu-opened" : ""}`} onClick={() => handleAccordion(3)}>
                                     <em></em>
@@ -133,7 +136,7 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }: any) {
                                     </li>
                                 </ul>
                             </li>
-                            <li>
+                            <li style={{ display: "none" }}>
                                 <Link href="#">Blogs</Link>
                                 <span className={`submenu-button ${isAccordion == 4 ? "submenu-opened" : ""}`} onClick={() => handleAccordion(4)}>
                                     <em></em>
@@ -150,7 +153,7 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }: any) {
                                     </li>
                                 </ul>
                             </li>
-                            <li>
+                            <li style={{ display: "none" }}>
                                 <Link href="#">Pages</Link>
                                 <span className={`submenu-button ${isAccordion == 5 ? "submenu-opened" : ""}`} onClick={() => handleAccordion(5)}>
                                     <em></em>
@@ -176,7 +179,7 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }: any) {
                                     </li>
                                 </ul>
                             </li>
-                            <li>
+                            <li style={{ display: "none" }}>
                                 <Link href="#">Dashboard</Link>
                                 <span className={`submenu-button ${isAccordion == 6 ? "submenu-opened" : ""}`} onClick={() => handleAccordion(6)}>
                                     <em></em>
@@ -207,7 +210,7 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }: any) {
                             </li>
                         </ul>
                         <div className="allmobilesection">
-                            <Link href="/contact" className="theme-btn1">
+                            <Link href="/contact" className="theme-btn1" style={{ display: "none" }}>
                                 Contact Us{" "}
                                 <span className="arrow1">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width={24} height={24} fill="currentColor">
@@ -240,7 +243,7 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }: any) {
                                             </svg>
                                         </div>
                                         <div className="contact-info-text">
-                                            <Link href="mailto:info@example.com">info@example.com</Link>
+                                            <Link href="mailto:info@rentalhikes.com">info@rentalhikes.com</Link>
                                         </div>
                                     </div>
                                     <div className="single-footer">
@@ -252,8 +255,8 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }: any) {
                                                 </svg>
                                             </div>
                                             <div className="contact-info-text">
-                                                <Link href="mailto:info@example.com">
-                                                    55 East Birchwood Ave.Brooklyn, <br /> New York 11201,United States
+                                                <Link href="#">
+                                                    Delhi NCR, India
                                                 </Link>
                                             </div>
                                         </div>

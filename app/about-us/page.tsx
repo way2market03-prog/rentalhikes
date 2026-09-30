@@ -345,11 +345,11 @@ export default function AboutUs() {
                                                 </div>
                                                 <div className="space24" />
                                                 <div className="content">
-                                                    <Link href="/search-result">Search by Location</Link>
+                                                    <Link href="#">Search by Location</Link>
                                                     <div className="space16" />
                                                     <p>Explore rentals in Delhi, Noida, Greater Noida, and Ghaziabad, then narrow your search to the areas that suit you.</p>
                                                     <div className="space24" />
-                                                    <Link href="/search-result" className="readmore">
+                                                    <Link href="#" className="readmore">
                                                         learn more{" "}
                                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
                                                             <path d="M13.0508 12.361L7.39395 18.0179L5.97974 16.6037L11.6366 10.9468L6.68684 5.99707H18.0006V17.3108L13.0508 12.361Z"></path>
@@ -367,11 +367,11 @@ export default function AboutUs() {
                                                 </div>
                                                 <div className="space24" />
                                                 <div className="content">
-                                                    <Link href="/search-result">Compare Monthly Rents</Link>
+                                                    <Link href="#">Compare Monthly Rents</Link>
                                                     <div className="space16" />
                                                     <p>Review sample monthly rents alongside location, configuration, and furnishing details before you shortlist a home.</p>
                                                     <div className="space24" />
-                                                    <Link href="/search-result" className="readmore">
+                                                    <Link href="#" className="readmore">
                                                         learn more{" "}
                                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
                                                             <path d="M13.0508 12.361L7.39395 18.0179L5.97974 16.6037L11.6366 10.9468L6.68684 5.99707H18.0006V17.3108L13.0508 12.361Z"></path>
@@ -389,11 +389,11 @@ export default function AboutUs() {
                                                 </div>
                                                 <div className="space24" />
                                                 <div className="content">
-                                                    <Link href="/search-result">Find a Home Type</Link>
+                                                    <Link href="#">Find a Home Type</Link>
                                                     <div className="space16" />
                                                     <p>Filter for flats, builder floors, independent houses, villas, and shared homes to find a rental that fits your needs.</p>
                                                     <div className="space24" />
-                                                    <Link href="/search-result" className="readmore">
+                                                    <Link href="#" className="readmore">
                                                         learn more{" "}
                                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
                                                             <path d="M13.0508 12.361L7.39395 18.0179L5.97974 16.6037L11.6366 10.9468L6.68684 5.99707H18.0006V17.3108L13.0508 12.361Z"></path>
@@ -411,11 +411,11 @@ export default function AboutUs() {
                                                 </div>
                                                 <div className="space24" />
                                                 <div className="content">
-                                                    <Link href="/add-property">Post a Property</Link>
+                                                    <Link href="#">Post a Property</Link>
                                                     <div className="space16" />
                                                     <p>Have a rental to share? Add its location, monthly rent, and key details to reach people searching in Delhi NCR.</p>
                                                     <div className="space24" />
-                                                    <Link href="/add-property" className="readmore">
+                                                    <Link href="#" className="readmore">
                                                         learn more{" "}
                                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
                                                             <path d="M13.0508 12.361L7.39395 18.0179L5.97974 16.6037L11.6366 10.9468L6.68684 5.99707H18.0006V17.3108L13.0508 12.361Z"></path>
@@ -479,7 +479,7 @@ export default function AboutUs() {
                                         </div>
                                         <div className="space24" />
                                         <div className="content-area">
-                                            <Link href="/search-result">Delhi</Link>
+                                            <Link href="#">Delhi</Link>
                                             <div className="space14" />
                                             <p>Central, South, and Dwarka</p>
                                         </div>
@@ -519,7 +519,7 @@ export default function AboutUs() {
                                         </div>
                                         <div className="space24" />
                                         <div className="content-area">
-                                            <Link href="/search-result">Noida</Link>
+                                            <Link href="#">Noida</Link>
                                             <div className="space14" />
                                             <p>Sectors 62, 75, and 137</p>
                                         </div>
@@ -559,7 +559,7 @@ export default function AboutUs() {
                                         </div>
                                         <div className="space24" />
                                         <div className="content-area">
-                                            <Link href="/search-result">Greater Noida</Link>
+                                            <Link href="#">Greater Noida</Link>
                                             <div className="space14" />
                                             <p>Alpha, Pari Chowk, and Tech Zone</p>
                                         </div>
@@ -599,7 +599,7 @@ export default function AboutUs() {
                                         </div>
                                         <div className="space24" />
                                         <div className="content-area">
-                                            <Link href="/search-result">Ghaziabad</Link>
+                                            <Link href="#">Ghaziabad</Link>
                                             <div className="space14" />
                                             <p>Indirapuram, Vaishali, and Kaushambi</p>
                                         </div>
@@ -656,7 +656,7 @@ export default function AboutUs() {
                                                                     <img src="/assets/img/all-images/testimonial/testimonial-img2.png" alt="housebox" />
                                                                 </div>
                                                                 <div className="text">
-                                                                    <Link href="/search-result">Location-first search</Link>
+                                                                    <Link href="#">Location-first search</Link>
                                                                     <div className="space10" />
                                                                     <p>Delhi NCR rentals</p>
                                                                 </div>
@@ -675,7 +675,7 @@ export default function AboutUs() {
                                                                     <img src="/assets/img/all-images/testimonial/testimonial-img2.png" alt="housebox" />
                                                                 </div>
                                                                 <div className="text">
-                                                                    <Link href="/search-result">Clear monthly budgets</Link>
+                                                                    <Link href="#">Clear monthly budgets</Link>
                                                                     <div className="space10" />
                                                                     <p>Delhi NCR rentals</p>
                                                                 </div>
@@ -694,7 +694,7 @@ export default function AboutUs() {
                                                                     <img src="/assets/img/all-images/testimonial/testimonial-img2.png" alt="housebox" />
                                                                 </div>
                                                                 <div className="text">
-                                                                    <Link href="/search-result">Useful property filters</Link>
+                                                                    <Link href="#">Useful property filters</Link>
                                                                     <div className="space10" />
                                                                     <p>Delhi NCR rentals</p>
                                                                 </div>
@@ -713,7 +713,7 @@ export default function AboutUs() {
                                                                     <img src="/assets/img/all-images/testimonial/testimonial-img2.png" alt="housebox" />
                                                                 </div>
                                                                 <div className="text">
-                                                                    <Link href="/add-property">Owner listings</Link>
+                                                                    <Link href="#">Owner listings</Link>
                                                                     <div className="space10" />
                                                                     <p>Delhi NCR rentals</p>
                                                                 </div>

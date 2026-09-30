@@ -26976,5 +26976,39 @@ Location:
     display: block;
 }
 
+.properties-section-area .property-feature-slider .property-boxarea .content-area .btn-area.contact-actions {
+    gap: 10px;
+}
+
+.properties-section-area .property-feature-slider .property-boxarea .content-area .btn-area.contact-actions .nm-btn {
+    flex: 1 1 0;
+    min-width: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    padding: 12px 10px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.properties-section-area .property-feature-slider .content-area .btn-area.contact-actions .contact-whatsapp {
+    background: #168b4d;
+    color: #fff;
+}
+
+.properties-section-area .property-feature-slider .content-area .btn-area.contact-actions .contact-call {
+    background: #073b3a;
+    color: #fff;
+}
+
+@media (max-width: 575px) {
+    .properties-section-area .property-feature-slider .property-boxarea .content-area .btn-area.contact-actions .nm-btn {
+        gap: 5px;
+        padding: 12px 6px;
+        font-size: 13px;
+    }
+}
+
 /*============= WORK CSS AREA ===============*/
 /*# sourceMappingURL=main.css.map */

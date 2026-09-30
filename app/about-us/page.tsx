@@ -3,7 +3,6 @@ import Slider from "react-slick";
 
 import Layout from "@/components/layout/Layout";
 import Link from "next/link";
-import CounterUp from "@/components/elements/CounterUp";
 export default function AboutUs() {
     const settings2 = {
         slidesToShow: 1,
@@ -67,14 +66,10 @@ export default function AboutUs() {
                                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
                                                 <path d="M13.1717 12.0007L8.22192 7.05093L9.63614 5.63672L16.0001 12.0007L9.63614 18.3646L8.22192 16.9504L13.1717 12.0007Z"></path>
                                             </svg>{" "}
-                                            Listing{" "}
-                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-                                                <path d="M13.1717 12.0007L8.22192 7.05093L9.63614 5.63672L16.0001 12.0007L9.63614 18.3646L8.22192 16.9504L13.1717 12.0007Z"></path>
-                                            </svg>{" "}
                                             About Us
                                         </Link>
                                         <div className="space24" />
-                                        <h1>About Us</h1>
+                                        <h1>About RentalHikes</h1>
                                     </div>
                                 </div>
                             </div>
@@ -94,7 +89,7 @@ export default function AboutUs() {
                                             <img src="/assets/img/all-images/about/about-img1.png" alt="housebox" />
                                         </div>
                                         <div className="author-img aniamtion-key-1">
-                                            <h3>Our Happy Customer</h3>
+                                            <h3>Delhi NCR rentals</h3>
                                             <div className="space18" />
                                             <img src="/assets/img/all-images/others/author-img1.png" alt="housebox" />
                                         </div>
@@ -104,13 +99,13 @@ export default function AboutUs() {
                                 <div className="col-lg-5">
                                     <div className="about-heading heading1">
                                         <h5 data-aos="fade-left" data-aos-duration={800}>
-                                            About housebox
+                                            About RentalHikes
                                         </h5>
                                         <div className="space20" />
-                                        <h2 className="text-anime-style-3">Embrace the Elegance Our Exclusive Property</h2>
+                                        <h2 className="text-anime-style-3">A better way to find your next rental</h2>
                                         <div className="space18" />
                                         <p data-aos="fade-left" data-aos-duration={900}>
-                                            At HouseBox, we’re redefining the way people find, sell, and invest in properties. Our mission is to simplify real a estate by provide innovative solutions, expert guidance.
+                                            RentalHikes helps renters explore homes across Delhi, Noida, Greater Noida, and Ghaziabad. Compare monthly rents, shortlist properties, and choose the next step in your search.
                                         </p>
                                         <div className="space32" />
                                         <div className="counter-boxes" data-aos="fade-left" data-aos-duration={1000}>
@@ -118,37 +113,37 @@ export default function AboutUs() {
                                                 <div className="col-lg-4 col-md-4 col-6">
                                                     <div className="counter-boxarea text-center">
                                                         <h2>
-                                                            <CounterUp className="counter">10</CounterUp>K
+                                                            20
                                                         </h2>
                                                         <div className="space12" />
-                                                        <p>Homes Sold</p>
+                                                        <p>Sample Rentals</p>
                                                     </div>
                                                 </div>
                                                 <div className="col-lg-4 col-md-4 col-6">
                                                     <div className="counter-boxarea text-center">
                                                         <h2>
-                                                            <CounterUp className="counter">9</CounterUp>K
+                                                            4
                                                         </h2>
                                                         <div className="space12" />
-                                                        <p>Happy Client</p>
+                                                        <p>Delhi NCR Cities</p>
                                                     </div>
                                                 </div>
                                                 <div className="col-lg-4 col-md-4 col-6">
                                                     <div className="space20 d-md-none d-block" />
                                                     <div className="counter-boxarea text-center">
                                                         <h2>
-                                                            <CounterUp className="counter">98</CounterUp>%
+                                                            ₹18K
                                                         </h2>
                                                         <div className="space12" />
-                                                        <p>Satisfaction Rate</p>
+                                                        <p>Sample Rent From</p>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                         <div className="space32" />
                                         <div className="btn-area1" data-aos="fade-left" data-aos-duration={1100}>
-                                            <Link href="/property-halfmap-grid" className="theme-btn1">
-                                                See All Properties{" "}
+                                            <Link href="/search-result" className="theme-btn1">
+                                                Browse Rentals{" "}
                                                 <span className="arrow1">
                                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width={24} height={24} fill="currentColor">
                                                         <path d="M12 13H4V11H12V4L20 12L12 20V13Z" />
@@ -173,9 +168,9 @@ export default function AboutUs() {
                             <div className="row">
                                 <div className="col-lg-6 m-auto">
                                     <div className="heading1 text-center space-margin60">
-                                        <h5>Our Mission</h5>
+                                        <h5>Why RentalHikes</h5>
                                         <div className="space20" />
-                                        <h2>Our Mission &amp; Vision</h2>
+                                        <h2>Our Mission &amp; Vision for Renting</h2>
                                     </div>
                                     <div className="space100 d-lg-block d-none" />
                                 </div>
@@ -183,21 +178,21 @@ export default function AboutUs() {
                             <div className="row">
                                 <div className="col-lg-7">
                                     <div className="vission-mission-box">
-                                        <h3>Our Path to Real Estate Excellence</h3>
+                                        <h3>A simpler way to search for a rental</h3>
                                         <div className="space24" />
-                                        <p>At HouseBox, we’re redefining the way people find, sell, and invest in properties. Our mission is to simplify real a estate by provide innovative solutions, expert guidance.</p>
+                                        <p>We bring Delhi NCR rental search into one place, helping people explore homes by location, monthly budget, configuration, and furnishing.</p>
                                         <div className="space24" />
                                         <h4>Our Mission</h4>
                                         <div className="space16" />
-                                        <p>To provide a reliable, transparent, and innovative real estate experience that exceeds expectations and fosters lasting relationships.</p>
+                                        <p>Make it easier to discover rental homes and compare the details that matter before arranging a visit.</p>
                                         <div className="space24" />
                                         <h4>Our Vision</h4>
                                         <div className="space16" />
-                                        <p>To be the leading platform for real estate solutions, empowering individuals and businesses to achieve their property goals with ease.</p>
+                                        <p>Build a useful rental-search experience for renters and property owners across Delhi, Noida, Greater Noida, and Ghaziabad.</p>
                                         <div className="space32" />
                                         <div className="btn-area1">
-                                            <Link href="/property-halfmap-grid" className="theme-btn1">
-                                                See All Properties{" "}
+                                            <Link href="/search-result" className="theme-btn1">
+                                                Explore Rentals{" "}
                                                 <span className="arrow1">
                                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width={24} height={24} fill="currentColor">
                                                         <path d="M12 13H4V11H12V4L20 12L12 20V13Z" />
@@ -244,7 +239,7 @@ export default function AboutUs() {
                                             </div>
                                         </div>
                                         <div className="author-img">
-                                            <h3>Our Happy Customer</h3>
+                                            <h3>Delhi NCR rental search</h3>
                                             <div className="space18" />
                                             <img src="/assets/img/all-images/others/author-img1.png" alt="housebox" />
                                         </div>
@@ -253,56 +248,56 @@ export default function AboutUs() {
                                 <div className="col-lg-5">
                                     <div className="about-heading heading1">
                                         <h5 data-aos="fade-left" data-aos-duration={800}>
-                                            About housebox
+                                            Our approach
                                         </h5>
                                         <div className="space20" />
-                                        <h2 className="text-anime-style-3">Embrace the Elegance Our Exclusive Property</h2>
+                                        <h2 className="text-anime-style-3">Rental search with the details that matter</h2>
                                         <div className="space18" />
                                         <p data-aos="fade-left" data-aos-duration={900}>
-                                            At HouseBox, we’re redefining the way people find, sell, and invest in properties. Our mission is to simplify real a estate by provide innovative solutions, expert guidance.
+                                            Search Delhi NCR homes by locality, monthly budget, property type, and furnishing to build a shortlist that fits your needs.
                                         </p>
                                         <div className="accordion" id="accordionExample">
                                             <div className="accordion-item">
                                                 <h2 className="accordion-header">
                                                     <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                                        Market Expertise
+                                                        Local Coverage
                                                     </button>
                                                 </h2>
                                                 <div id="collapseOne" className="accordion-collapse collapse show" data-bs-parent="#accordionExample">
                                                     <div className="accordion-body">
-                                                        <p>Backed by deep market insights, we offer guidance to make informed decisions.</p>
+                                                        <p>Explore rental options in Delhi, Noida, Greater Noida, and Ghaziabad.</p>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div className="accordion-item">
                                                 <h2 className="accordion-header">
                                                     <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                                        Technology Expertise
+                                                        Clear Rental Details
                                                     </button>
                                                 </h2>
                                                 <div id="collapseTwo" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
                                                     <div className="accordion-body">
-                                                        <p>Backed by deep market insights, we offer guidance to make informed decisions.</p>
+                                                        <p>Compare monthly rents, room configurations, furnishing, and other useful filters.</p>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div className="accordion-item">
                                                 <h2 className="accordion-header">
                                                     <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                                        Commitment to Excellence
+                                                        Renter-First Search
                                                     </button>
                                                 </h2>
                                                 <div id="collapseThree" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
                                                     <div className="accordion-body">
-                                                        <p>Backed by deep market insights, we offer guidance to make informed decisions.</p>
+                                                        <p>Use a focused search to narrow down homes and plan your next step with confidence.</p>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                         <div className="space32" />
                                         <div className="btn-area1">
-                                            <Link href="/property-halfmap-grid" className="theme-btn1">
-                                                See All Properties{" "}
+                                            <Link href="/search-result" className="theme-btn1">
+                                                Search Rentals{" "}
                                                 <span className="arrow1">
                                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width={24} height={24} fill="currentColor">
                                                         <path d="M12 13H4V11H12V4L20 12L12 20V13Z" />
@@ -329,7 +324,7 @@ export default function AboutUs() {
                                     <div className="heading1 text-center space-margin60">
                                         <h5>What We Offer</h5>
                                         <div className="space20" />
-                                        <h2>Upgrade To a Smarter Living Experience With Home Automation</h2>
+                                        <h2>Useful tools for finding and listing a rental</h2>
                                     </div>
                                 </div>
                             </div>
@@ -350,11 +345,11 @@ export default function AboutUs() {
                                                 </div>
                                                 <div className="space24" />
                                                 <div className="content">
-                                                    <Link href="/property-details-v1">Buying A Home</Link>
+                                                    <Link href="/search-result">Search by Location</Link>
                                                     <div className="space16" />
-                                                    <p>At Housebox, we know that buying a home is one life’s biggest milestones. Our experienced team is here to guide you through every step home.</p>
+                                                    <p>Explore rentals in Delhi, Noida, Greater Noida, and Ghaziabad, then narrow your search to the areas that suit you.</p>
                                                     <div className="space24" />
-                                                    <Link href="/property-details-v1" className="readmore">
+                                                    <Link href="/search-result" className="readmore">
                                                         learn more{" "}
                                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
                                                             <path d="M13.0508 12.361L7.39395 18.0179L5.97974 16.6037L11.6366 10.9468L6.68684 5.99707H18.0006V17.3108L13.0508 12.361Z"></path>
@@ -372,11 +367,11 @@ export default function AboutUs() {
                                                 </div>
                                                 <div className="space24" />
                                                 <div className="content">
-                                                    <Link href="/property-details-v1">Selling A Home</Link>
+                                                    <Link href="/search-result">Compare Monthly Rents</Link>
                                                     <div className="space16" />
-                                                    <p>Selling your home doesn’t have to be overwhelming. With Housebox, our dedicated experts will make process smooth, stress-free, and rewarding.</p>
+                                                    <p>Review sample monthly rents alongside location, configuration, and furnishing details before you shortlist a home.</p>
                                                     <div className="space24" />
-                                                    <Link href="/property-details-v1" className="readmore">
+                                                    <Link href="/search-result" className="readmore">
                                                         learn more{" "}
                                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
                                                             <path d="M13.0508 12.361L7.39395 18.0179L5.97974 16.6037L11.6366 10.9468L6.68684 5.99707H18.0006V17.3108L13.0508 12.361Z"></path>
@@ -394,11 +389,11 @@ export default function AboutUs() {
                                                 </div>
                                                 <div className="space24" />
                                                 <div className="content">
-                                                    <Link href="/property-details-v1">Renting A Home</Link>
+                                                    <Link href="/search-result">Find a Home Type</Link>
                                                     <div className="space16" />
-                                                    <p>Finding the right rental property is easy with Housebox. Whether you’re seeking a cozy apartment spacious home, we offer a variety of options.</p>
+                                                    <p>Filter for flats, builder floors, independent houses, villas, and shared homes to find a rental that fits your needs.</p>
                                                     <div className="space24" />
-                                                    <Link href="/property-details-v1" className="readmore">
+                                                    <Link href="/search-result" className="readmore">
                                                         learn more{" "}
                                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
                                                             <path d="M13.0508 12.361L7.39395 18.0179L5.97974 16.6037L11.6366 10.9468L6.68684 5.99707H18.0006V17.3108L13.0508 12.361Z"></path>
@@ -416,11 +411,11 @@ export default function AboutUs() {
                                                 </div>
                                                 <div className="space24" />
                                                 <div className="content">
-                                                    <Link href="/property-details-v1">Property Management</Link>
+                                                    <Link href="/add-property">Post a Property</Link>
                                                     <div className="space16" />
-                                                    <p>Managing properties can be time-consuming, but Housebox makes it effortless. Our property management services ensure your investments.</p>
+                                                    <p>Have a rental to share? Add its location, monthly rent, and key details to reach people searching in Delhi NCR.</p>
                                                     <div className="space24" />
-                                                    <Link href="/property-details-v1" className="readmore">
+                                                    <Link href="/add-property" className="readmore">
                                                         learn more{" "}
                                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
                                                             <path d="M13.0508 12.361L7.39395 18.0179L5.97974 16.6037L11.6366 10.9468L6.68684 5.99707H18.0006V17.3108L13.0508 12.361Z"></path>
@@ -442,10 +437,10 @@ export default function AboutUs() {
                                 <div className="col-lg-6 m-auto">
                                     <div className="team-header heading1 space-margin60 text-center">
                                         <h5 data-aos="fade-left" data-aos-duration={800}>
-                                            Experts Behind HouseBox
+                                            Delhi NCR Rental Coverage
                                         </h5>
                                         <div className="space20" />
-                                        <h2 className="text-anime-style-3">The HouseBox Dream Team</h2>
+                                        <h2 className="text-anime-style-3">Explore the areas we serve</h2>
                                     </div>
                                 </div>
                             </div>
@@ -453,7 +448,7 @@ export default function AboutUs() {
                                 <div className="col-lg-3 col-md-6" data-aos="zoom-out" data-aos-duration={800}>
                                     <div className="team-widget-boxarea">
                                         <div className="img1 image-anime">
-                                            <img src="/assets/img/all-images/team/team-img1.png" alt="housebox" />
+                                            <img src="/assets/img/all-images/properties/property-img1.png" alt="Rental home in Delhi" />
                                             <div className="share">
                                                 <Link href="#">
                                                     <svg xmlns="http://www.w3.org/2000/svg" width={17} height={18} viewBox="0 0 17 18" fill="none">
@@ -484,16 +479,16 @@ export default function AboutUs() {
                                         </div>
                                         <div className="space24" />
                                         <div className="content-area">
-                                            <Link href="#">Henry Nicolas</Link>
+                                            <Link href="/search-result">Delhi</Link>
                                             <div className="space14" />
-                                            <p>Founder &amp; CEO</p>
+                                            <p>Central, South, and Dwarka</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="col-lg-3 col-md-6" data-aos="zoom-out" data-aos-duration={900}>
                                     <div className="team-widget-boxarea">
                                         <div className="img1 image-anime">
-                                            <img src="/assets/img/all-images/team/team-img2.png" alt="housebox" />
+                                            <img src="/assets/img/all-images/properties/property-img2.png" alt="Rental home in Noida" />
                                             <div className="share">
                                                 <Link href="#">
                                                     <svg xmlns="http://www.w3.org/2000/svg" width={17} height={18} viewBox="0 0 17 18" fill="none">
@@ -524,16 +519,16 @@ export default function AboutUs() {
                                         </div>
                                         <div className="space24" />
                                         <div className="content-area">
-                                            <Link href="#">Sarah Johnson</Link>
+                                            <Link href="/search-result">Noida</Link>
                                             <div className="space14" />
-                                            <p>Real Estate Agent</p>
+                                            <p>Sectors 62, 75, and 137</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="col-lg-3 col-md-6" data-aos="zoom-out" data-aos-duration={1000}>
                                     <div className="team-widget-boxarea">
                                         <div className="img1 image-anime">
-                                            <img src="/assets/img/all-images/team/team-img3.png" alt="housebox" />
+                                            <img src="/assets/img/all-images/properties/property-img3.png" alt="Rental home in Greater Noida" />
                                             <div className="share">
                                                 <Link href="#">
                                                     <svg xmlns="http://www.w3.org/2000/svg" width={17} height={18} viewBox="0 0 17 18" fill="none">
@@ -564,16 +559,16 @@ export default function AboutUs() {
                                         </div>
                                         <div className="space24" />
                                         <div className="content-area">
-                                            <Link href="#">Sohia Rodriguez</Link>
+                                            <Link href="/search-result">Greater Noida</Link>
                                             <div className="space14" />
-                                            <p>Marketing Director</p>
+                                            <p>Alpha, Pari Chowk, and Tech Zone</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="col-lg-3 col-md-6" data-aos="zoom-out" data-aos-duration={1200}>
                                     <div className="team-widget-boxarea">
                                         <div className="img1 image-anime">
-                                            <img src="/assets/img/all-images/team/team-img4.png" alt="housebox" />
+                                            <img src="/assets/img/all-images/properties/property-img4.png" alt="Rental home in Ghaziabad" />
                                             <div className="share">
                                                 <Link href="#">
                                                     <svg xmlns="http://www.w3.org/2000/svg" width={17} height={18} viewBox="0 0 17 18" fill="none">
@@ -604,9 +599,9 @@ export default function AboutUs() {
                                         </div>
                                         <div className="space24" />
                                         <div className="content-area">
-                                            <Link href="#">Daniel Williams</Link>
+                                            <Link href="/search-result">Ghaziabad</Link>
                                             <div className="space14" />
-                                            <p>Services Manager</p>
+                                            <p>Indirapuram, Vaishali, and Kaushambi</p>
                                         </div>
                                     </div>
                                 </div>
@@ -621,10 +616,10 @@ export default function AboutUs() {
                                 <div className="col-lg-6">
                                     <div className="testimonial-header space-margin60 heading1">
                                         <h5 data-aos="fade-left" data-aos-duration={800}>
-                                            feedback/testimonial
+                                            RentalHikes renter-first approach
                                         </h5>
                                         <div className="space20" />
-                                        <h2 className="text-anime-style-3">A Legacy Of Happy Clients</h2>
+                                        <h2 className="text-anime-style-3">A clearer way to search for a rental</h2>
                                     </div>
                                 </div>
                             </div>
@@ -653,7 +648,7 @@ export default function AboutUs() {
                                                     <div className="testimonial-box">
                                                         <img src="/assets/img/icons/quoto-icon1.svg" alt="housebox" />
                                                         <div className="space16" />
-                                                        <p>"When I decided to sell my home, I was overwhelmed with where to start. HouseBox stepped in with a clear plan, professional marketing, constant communicate. Within two weeks, my house was sold above asking.”</p>
+                                                        <p>Start with the city or locality, then compare rental homes that fit your needs and monthly budget.</p>
                                                         <div className="space32" />
                                                         <div className="test-images">
                                                             <div className="auhtor-area">
@@ -661,9 +656,9 @@ export default function AboutUs() {
                                                                     <img src="/assets/img/all-images/testimonial/testimonial-img2.png" alt="housebox" />
                                                                 </div>
                                                                 <div className="text">
-                                                                    <Link href="#">Shakib Mahmud</Link>
+                                                                    <Link href="/search-result">Location-first search</Link>
                                                                     <div className="space10" />
-                                                                    <p>Happy Client</p>
+                                                                    <p>Delhi NCR rentals</p>
                                                                 </div>
                                                             </div>
                                                             <img src="/assets/img/elements/brand1.png" alt="housebox" className="brand1" />
@@ -672,7 +667,7 @@ export default function AboutUs() {
                                                     <div className="testimonial-box">
                                                         <img src="/assets/img/icons/quoto-icon1.svg" alt="housebox" />
                                                         <div className="space16" />
-                                                        <p>"When I decided to sell my home, I was overwhelmed with where to start. HouseBox stepped in with a clear plan, professional marketing, constant communicate. Within two weeks, my house was sold above asking.”</p>
+                                                        <p>Compare monthly rents in rupees while exploring Delhi, Noida, Greater Noida, and Ghaziabad.</p>
                                                         <div className="space32" />
                                                         <div className="test-images">
                                                             <div className="auhtor-area">
@@ -680,9 +675,9 @@ export default function AboutUs() {
                                                                     <img src="/assets/img/all-images/testimonial/testimonial-img2.png" alt="housebox" />
                                                                 </div>
                                                                 <div className="text">
-                                                                    <Link href="#">Shakib Mahmud</Link>
+                                                                    <Link href="/search-result">Clear monthly budgets</Link>
                                                                     <div className="space10" />
-                                                                    <p>Happy Client</p>
+                                                                    <p>Delhi NCR rentals</p>
                                                                 </div>
                                                             </div>
                                                             <img src="/assets/img/elements/brand1.png" alt="housebox" className="brand1" />
@@ -691,7 +686,7 @@ export default function AboutUs() {
                                                     <div className="testimonial-box">
                                                         <img src="/assets/img/icons/quoto-icon1.svg" alt="housebox" />
                                                         <div className="space16" />
-                                                        <p>"When I decided to sell my home, I was overwhelmed with where to start. HouseBox stepped in with a clear plan, professional marketing, constant communicate. Within two weeks, my house was sold above asking.”</p>
+                                                        <p>Filter by property type, BHK, furnishing, and other details to make a focused shortlist.</p>
                                                         <div className="space32" />
                                                         <div className="test-images">
                                                             <div className="auhtor-area">
@@ -699,9 +694,9 @@ export default function AboutUs() {
                                                                     <img src="/assets/img/all-images/testimonial/testimonial-img2.png" alt="housebox" />
                                                                 </div>
                                                                 <div className="text">
-                                                                    <Link href="#">Shakib Mahmud</Link>
+                                                                    <Link href="/search-result">Useful property filters</Link>
                                                                     <div className="space10" />
-                                                                    <p>Happy Client</p>
+                                                                    <p>Delhi NCR rentals</p>
                                                                 </div>
                                                             </div>
                                                             <img src="/assets/img/elements/brand1.png" alt="housebox" className="brand1" />
@@ -710,7 +705,7 @@ export default function AboutUs() {
                                                     <div className="testimonial-box">
                                                         <img src="/assets/img/icons/quoto-icon1.svg" alt="housebox" />
                                                         <div className="space16" />
-                                                        <p>"When I decided to sell my home, I was overwhelmed with where to start. HouseBox stepped in with a clear plan, professional marketing, constant communicate. Within two weeks, my house was sold above asking.”</p>
+                                                        <p>Property owners can share rental details with people searching for a home across Delhi NCR.</p>
                                                         <div className="space32" />
                                                         <div className="test-images">
                                                             <div className="auhtor-area">
@@ -718,9 +713,9 @@ export default function AboutUs() {
                                                                     <img src="/assets/img/all-images/testimonial/testimonial-img2.png" alt="housebox" />
                                                                 </div>
                                                                 <div className="text">
-                                                                    <Link href="#">Shakib Mahmud</Link>
+                                                                    <Link href="/add-property">Owner listings</Link>
                                                                     <div className="space10" />
-                                                                    <p>Happy Client</p>
+                                                                    <p>Delhi NCR rentals</p>
                                                                 </div>
                                                             </div>
                                                             <img src="/assets/img/elements/brand1.png" alt="housebox" className="brand1" />
@@ -746,18 +741,18 @@ export default function AboutUs() {
                                         <div className="row align-items-center">
                                             <div className="col-lg-5">
                                                 <div className="cta-header">
-                                                    <h2 className="text-anime-style-3">Step Into Your Dream Home with HouseBox</h2>
+                                                    <h2 className="text-anime-style-3">Find a rental that fits your life</h2>
                                                     <div className="space16" />
                                                     <p data-aos="fade-left" data-aos-duration={1000}>
-                                                        At HouseBox, we believe your next home is more than just a place – it’s where your future begins you’re buy.
+                                                        Explore rentals across Delhi, Noida, Greater Noida, and Ghaziabad, with monthly prices shown in rupees.
                                                     </p>
                                                 </div>
                                             </div>
                                             <div className="col-lg-2" />
                                             <div className="col-lg-5" data-aos="zoom-in" data-aos-duration={1000}>
                                                 <div className="btn-area1 text-center">
-                                                    <Link href="/sidebar-grid" className="theme-btn1">
-                                                        Find Your Dream Home{" "}
+                                                    <Link href="/search-result" className="theme-btn1">
+                                                        Browse Rentals{" "}
                                                         <span className="arrow1">
                                                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width={24} height={24} fill="currentColor">
                                                                 <path d="M12 13H4V11H12V4L20 12L12 20V13Z" />

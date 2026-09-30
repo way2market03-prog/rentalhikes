@@ -119,15 +119,15 @@ export default function Properties1() {
                                                         <div className="category-list">
                                                             <ul>
                                                                 <li>
-                                                                    <Link href="/property-details-v1">Featured</Link>
+                                                                    <Link href="#">Featured</Link>
                                                                 </li>
                                                                 <li>
-                                                                    <Link href="/property-details-v1">For Rent</Link>
+                                                                    <Link href="#">For Rent</Link>
                                                                 </li>
                                                             </ul>
                                                         </div>
                                                         <div className="content-area">
-                                                            <Link href="/property-details-v1">Furnished 2 BHK Apartment</Link>
+                                                            <Link href="#">Furnished 2 BHK Apartment</Link>
                                                             <div className="space18" />
                                                             <p>Delhi, India</p>
                                                             <div className="space24" />
@@ -151,14 +151,7 @@ export default function Properties1() {
                                                                     </Link>
                                                                 </li>
                                                             </ul>
-                                                            <div className="btn-area">
-                                                                <Link href="#" className="nm-btn">
-                                                                    ₹24,000 / month
-                                                                </Link>
-                                                                <Link href="#" className="heart">
-                                                                    <img src="/assets/img/icons/heart1.svg" alt="housebox" className="heart1" /> <img src="/assets/img/icons/heart2.svg" alt="housebox" className="heart2" />
-                                                                </Link>
-                                                            </div>
+                                                            <div className="btn-area contact-actions"><Link href="https://wa.me/919876543210?text=Hello%2C%20I%27m%20interested%20in%20this%20rental" target="_blank" rel="noopener noreferrer" className="nm-btn contact-whatsapp"><i className="fa-brands fa-whatsapp" /> WhatsApp</Link><Link href="tel:+919876543210" className="nm-btn contact-call"><i className="fa-solid fa-phone" /> Call Now</Link></div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -183,15 +176,15 @@ export default function Properties1() {
                                                         <div className="category-list">
                                                             <ul>
                                                                 <li>
-                                                                    <Link href="/property-details-v1">Featured</Link>
+                                                                    <Link href="#">Featured</Link>
                                                                 </li>
                                                                 <li>
-                                                                    <Link href="/property-details-v1">For Rent</Link>
+                                                                    <Link href="#">For Rent</Link>
                                                                 </li>
                                                             </ul>
                                                         </div>
                                                         <div className="content-area">
-                                                            <Link href="/property-details-v1">Three Room Apartment</Link>
+                                                            <Link href="#">Three Room Apartment</Link>
                                                             <div className="space18" />
                                                             <p>Noida, India</p>
                                                             <div className="space24" />
@@ -215,14 +208,7 @@ export default function Properties1() {
                                                                     </Link>
                                                                 </li>
                                                             </ul>
-                                                            <div className="btn-area">
-                                                                <Link href="#" className="nm-btn">
-                                                                    ₹28,000 / month
-                                                                </Link>
-                                                                <Link href="#" className="heart">
-                                                                    <img src="/assets/img/icons/heart1.svg" alt="housebox" className="heart1" /> <img src="/assets/img/icons/heart2.svg" alt="housebox" className="heart2" />
-                                                                </Link>
-                                                            </div>
+                                                            <div className="btn-area contact-actions"><Link href="https://wa.me/919876543210?text=Hello%2C%20I%27m%20interested%20in%20this%20rental" target="_blank" rel="noopener noreferrer" className="nm-btn contact-whatsapp"><i className="fa-brands fa-whatsapp" /> WhatsApp</Link><Link href="tel:+919876543210" className="nm-btn contact-call"><i className="fa-solid fa-phone" /> Call Now</Link></div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -247,15 +233,15 @@ export default function Properties1() {
                                                         <div className="category-list">
                                                             <ul>
                                                                 <li>
-                                                                    <Link href="/property-details-v1">Featured</Link>
+                                                                    <Link href="#">Featured</Link>
                                                                 </li>
                                                                 <li>
-                                                                    <Link href="/property-details-v1">For Rent</Link>
+                                                                    <Link href="#">For Rent</Link>
                                                                 </li>
                                                             </ul>
                                                         </div>
                                                         <div className="content-area">
-                                                            <Link href="/property-details-v1">Spacious Home for Rent</Link>
+                                                            <Link href="#">Spacious Home for Rent</Link>
                                                             <div className="space18" />
                                                             <p>Greater Noida, India</p>
                                                             <div className="space24" />
@@ -279,14 +265,7 @@ export default function Properties1() {
                                                                     </Link>
                                                                 </li>
                                                             </ul>
-                                                            <div className="btn-area">
-                                                                <Link href="#" className="nm-btn">
-                                                                    ₹32,000 / month
-                                                                </Link>
-                                                                <Link href="#" className="heart">
-                                                                    <img src="/assets/img/icons/heart1.svg" alt="housebox" className="heart1" /> <img src="/assets/img/icons/heart2.svg" alt="housebox" className="heart2" />
-                                                                </Link>
-                                                            </div>
+                                                            <div className="btn-area contact-actions"><Link href="https://wa.me/919876543210?text=Hello%2C%20I%27m%20interested%20in%20this%20rental" target="_blank" rel="noopener noreferrer" className="nm-btn contact-whatsapp"><i className="fa-brands fa-whatsapp" /> WhatsApp</Link><Link href="tel:+919876543210" className="nm-btn contact-call"><i className="fa-solid fa-phone" /> Call Now</Link></div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -302,15 +281,15 @@ export default function Properties1() {
                                                         <div className="category-list">
                                                             <ul>
                                                                 <li>
-                                                                    <Link href="/property-details-v1">Featured</Link>
+                                                                    <Link href="#">Featured</Link>
                                                                 </li>
                                                                 <li>
-                                                                    <Link href="/property-details-v1">For Rent</Link>
+                                                                    <Link href="#">For Rent</Link>
                                                                 </li>
                                                             </ul>
                                                         </div>
                                                         <div className="content-area">
-                                                            <Link href="/property-details-v1">Apartment Complex</Link>
+                                                            <Link href="#">Apartment Complex</Link>
                                                             <div className="space18" />
                                                             <p>Ghaziabad, India</p>
                                                             <div className="space24" />
@@ -334,14 +313,7 @@ export default function Properties1() {
                                                                     </Link>
                                                                 </li>
                                                             </ul>
-                                                            <div className="btn-area">
-                                                                <Link href="#" className="nm-btn">
-                                                                    ₹36,000 / month
-                                                                </Link>
-                                                                <Link href="#" className="heart">
-                                                                    <img src="/assets/img/icons/heart1.svg" alt="housebox" className="heart1" /> <img src="/assets/img/icons/heart2.svg" alt="housebox" className="heart2" />
-                                                                </Link>
-                                                            </div>
+                                                            <div className="btn-area contact-actions"><Link href="https://wa.me/919876543210?text=Hello%2C%20I%27m%20interested%20in%20this%20rental" target="_blank" rel="noopener noreferrer" className="nm-btn contact-whatsapp"><i className="fa-brands fa-whatsapp" /> WhatsApp</Link><Link href="tel:+919876543210" className="nm-btn contact-call"><i className="fa-solid fa-phone" /> Call Now</Link></div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -353,15 +325,15 @@ export default function Properties1() {
                                                         <div className="category-list">
                                                             <ul>
                                                                 <li>
-                                                                    <Link href="/property-details-v1">Featured</Link>
+                                                                    <Link href="#">Featured</Link>
                                                                 </li>
                                                                 <li>
-                                                                    <Link href="/property-details-v1">For Rent</Link>
+                                                                    <Link href="#">For Rent</Link>
                                                                 </li>
                                                             </ul>
                                                         </div>
                                                         <div className="content-area">
-                                                            <Link href="/property-details-v1">Furnished 2 BHK Apartment</Link>
+                                                            <Link href="#">Furnished 2 BHK Apartment</Link>
                                                             <div className="space18" />
                                                             <p>Delhi, India</p>
                                                             <div className="space24" />
@@ -385,14 +357,7 @@ export default function Properties1() {
                                                                     </Link>
                                                                 </li>
                                                             </ul>
-                                                            <div className="btn-area">
-                                                                <Link href="#" className="nm-btn">
-                                                                    ₹42,000 / month
-                                                                </Link>
-                                                                <Link href="#" className="heart">
-                                                                    <img src="/assets/img/icons/heart1.svg" alt="housebox" className="heart1" /> <img src="/assets/img/icons/heart2.svg" alt="housebox" className="heart2" />
-                                                                </Link>
-                                                            </div>
+                                                            <div className="btn-area contact-actions"><Link href="https://wa.me/919876543210?text=Hello%2C%20I%27m%20interested%20in%20this%20rental" target="_blank" rel="noopener noreferrer" className="nm-btn contact-whatsapp"><i className="fa-brands fa-whatsapp" /> WhatsApp</Link><Link href="tel:+919876543210" className="nm-btn contact-call"><i className="fa-solid fa-phone" /> Call Now</Link></div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -404,15 +369,15 @@ export default function Properties1() {
                                                         <div className="category-list">
                                                             <ul>
                                                                 <li>
-                                                                    <Link href="/property-details-v1">Featured</Link>
+                                                                    <Link href="#">Featured</Link>
                                                                 </li>
                                                                 <li>
-                                                                    <Link href="/property-details-v1">For Rent</Link>
+                                                                    <Link href="#">For Rent</Link>
                                                                 </li>
                                                             </ul>
                                                         </div>
                                                         <div className="content-area">
-                                                            <Link href="/property-details-v1">Diamond Apartment</Link>
+                                                            <Link href="#">Diamond Apartment</Link>
                                                             <div className="space18" />
                                                             <p>Noida, India</p>
                                                             <div className="space24" />
@@ -436,14 +401,7 @@ export default function Properties1() {
                                                                     </Link>
                                                                 </li>
                                                             </ul>
-                                                            <div className="btn-area">
-                                                                <Link href="#" className="nm-btn">
-                                                                    ₹24,000 / month
-                                                                </Link>
-                                                                <Link href="#" className="heart">
-                                                                    <img src="/assets/img/icons/heart1.svg" alt="housebox" className="heart1" /> <img src="/assets/img/icons/heart2.svg" alt="housebox" className="heart2" />
-                                                                </Link>
-                                                            </div>
+                                                            <div className="btn-area contact-actions"><Link href="https://wa.me/919876543210?text=Hello%2C%20I%27m%20interested%20in%20this%20rental" target="_blank" rel="noopener noreferrer" className="nm-btn contact-whatsapp"><i className="fa-brands fa-whatsapp" /> WhatsApp</Link><Link href="tel:+919876543210" className="nm-btn contact-call"><i className="fa-solid fa-phone" /> Call Now</Link></div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -455,15 +413,15 @@ export default function Properties1() {
                                                         <div className="category-list">
                                                             <ul>
                                                                 <li>
-                                                                    <Link href="/property-details-v1">Featured</Link>
+                                                                    <Link href="#">Featured</Link>
                                                                 </li>
                                                                 <li>
-                                                                    <Link href="/property-details-v1">For Rent</Link>
+                                                                    <Link href="#">For Rent</Link>
                                                                 </li>
                                                             </ul>
                                                         </div>
                                                         <div className="content-area">
-                                                            <Link href="/property-details-v1">Three Room Apartment</Link>
+                                                            <Link href="#">Three Room Apartment</Link>
                                                             <div className="space18" />
                                                             <p>Greater Noida, India</p>
                                                             <div className="space24" />
@@ -487,14 +445,7 @@ export default function Properties1() {
                                                                     </Link>
                                                                 </li>
                                                             </ul>
-                                                            <div className="btn-area">
-                                                                <Link href="#" className="nm-btn">
-                                                                    ₹28,000 / month
-                                                                </Link>
-                                                                <Link href="#" className="heart">
-                                                                    <img src="/assets/img/icons/heart1.svg" alt="housebox" className="heart1" /> <img src="/assets/img/icons/heart2.svg" alt="housebox" className="heart2" />
-                                                                </Link>
-                                                            </div>
+                                                            <div className="btn-area contact-actions"><Link href="https://wa.me/919876543210?text=Hello%2C%20I%27m%20interested%20in%20this%20rental" target="_blank" rel="noopener noreferrer" className="nm-btn contact-whatsapp"><i className="fa-brands fa-whatsapp" /> WhatsApp</Link><Link href="tel:+919876543210" className="nm-btn contact-call"><i className="fa-solid fa-phone" /> Call Now</Link></div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -506,15 +457,15 @@ export default function Properties1() {
                                                         <div className="category-list">
                                                             <ul>
                                                                 <li>
-                                                                    <Link href="/property-details-v1">Featured</Link>
+                                                                    <Link href="#">Featured</Link>
                                                                 </li>
                                                                 <li>
-                                                                    <Link href="/property-details-v1">For Rent</Link>
+                                                                    <Link href="#">For Rent</Link>
                                                                 </li>
                                                             </ul>
                                                         </div>
                                                         <div className="content-area">
-                                                            <Link href="/property-details-v1">Family Home for Rent</Link>
+                                                            <Link href="#">Family Home for Rent</Link>
                                                             <div className="space18" />
                                                             <p>Ghaziabad, India</p>
                                                             <div className="space24" />
@@ -538,14 +489,7 @@ export default function Properties1() {
                                                                     </Link>
                                                                 </li>
                                                             </ul>
-                                                            <div className="btn-area">
-                                                                <Link href="#" className="nm-btn">
-                                                                    ₹32,000 / month
-                                                                </Link>
-                                                                <Link href="#" className="heart">
-                                                                    <img src="/assets/img/icons/heart1.svg" alt="housebox" className="heart1" /> <img src="/assets/img/icons/heart2.svg" alt="housebox" className="heart2" />
-                                                                </Link>
-                                                            </div>
+                                                            <div className="btn-area contact-actions"><Link href="https://wa.me/919876543210?text=Hello%2C%20I%27m%20interested%20in%20this%20rental" target="_blank" rel="noopener noreferrer" className="nm-btn contact-whatsapp"><i className="fa-brands fa-whatsapp" /> WhatsApp</Link><Link href="tel:+919876543210" className="nm-btn contact-call"><i className="fa-solid fa-phone" /> Call Now</Link></div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -557,15 +501,15 @@ export default function Properties1() {
                                                         <div className="category-list">
                                                             <ul>
                                                                 <li>
-                                                                    <Link href="/property-details-v1">Featured</Link>
+                                                                    <Link href="#">Featured</Link>
                                                                 </li>
                                                                 <li>
-                                                                    <Link href="/property-details-v1">For Rent</Link>
+                                                                    <Link href="#">For Rent</Link>
                                                                 </li>
                                                             </ul>
                                                         </div>
                                                         <div className="content-area">
-                                                            <Link href="/property-details-v1">Spacious Home for Rent</Link>
+                                                            <Link href="#">Spacious Home for Rent</Link>
                                                             <div className="space18" />
                                                             <p>Delhi, India</p>
                                                             <div className="space24" />
@@ -589,14 +533,7 @@ export default function Properties1() {
                                                                     </Link>
                                                                 </li>
                                                             </ul>
-                                                            <div className="btn-area">
-                                                                <Link href="#" className="nm-btn">
-                                                                    ₹36,000 / month
-                                                                </Link>
-                                                                <Link href="#" className="heart">
-                                                                    <img src="/assets/img/icons/heart1.svg" alt="housebox" className="heart1" /> <img src="/assets/img/icons/heart2.svg" alt="housebox" className="heart2" />
-                                                                </Link>
-                                                            </div>
+                                                            <div className="btn-area contact-actions"><Link href="https://wa.me/919876543210?text=Hello%2C%20I%27m%20interested%20in%20this%20rental" target="_blank" rel="noopener noreferrer" className="nm-btn contact-whatsapp"><i className="fa-brands fa-whatsapp" /> WhatsApp</Link><Link href="tel:+919876543210" className="nm-btn contact-call"><i className="fa-solid fa-phone" /> Call Now</Link></div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -612,15 +549,15 @@ export default function Properties1() {
                                                         <div className="category-list">
                                                             <ul>
                                                                 <li>
-                                                                    <Link href="/property-details-v1">Featured</Link>
+                                                                    <Link href="#">Featured</Link>
                                                                 </li>
                                                                 <li>
-                                                                    <Link href="/property-details-v1">For Rent</Link>
+                                                                    <Link href="#">For Rent</Link>
                                                                 </li>
                                                             </ul>
                                                         </div>
                                                         <div className="content-area">
-                                                            <Link href="/property-details-v1">Apartment Complex</Link>
+                                                            <Link href="#">Apartment Complex</Link>
                                                             <div className="space18" />
                                                             <p>Noida, India</p>
                                                             <div className="space24" />
@@ -644,14 +581,7 @@ export default function Properties1() {
                                                                     </Link>
                                                                 </li>
                                                             </ul>
-                                                            <div className="btn-area">
-                                                                <Link href="#" className="nm-btn">
-                                                                    ₹42,000 / month
-                                                                </Link>
-                                                                <Link href="#" className="heart">
-                                                                    <img src="/assets/img/icons/heart1.svg" alt="housebox" className="heart1" /> <img src="/assets/img/icons/heart2.svg" alt="housebox" className="heart2" />
-                                                                </Link>
-                                                            </div>
+                                                            <div className="btn-area contact-actions"><Link href="https://wa.me/919876543210?text=Hello%2C%20I%27m%20interested%20in%20this%20rental" target="_blank" rel="noopener noreferrer" className="nm-btn contact-whatsapp"><i className="fa-brands fa-whatsapp" /> WhatsApp</Link><Link href="tel:+919876543210" className="nm-btn contact-call"><i className="fa-solid fa-phone" /> Call Now</Link></div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -663,15 +593,15 @@ export default function Properties1() {
                                                         <div className="category-list">
                                                             <ul>
                                                                 <li>
-                                                                    <Link href="/property-details-v1">Featured</Link>
+                                                                    <Link href="#">Featured</Link>
                                                                 </li>
                                                                 <li>
-                                                                    <Link href="/property-details-v1">For Rent</Link>
+                                                                    <Link href="#">For Rent</Link>
                                                                 </li>
                                                             </ul>
                                                         </div>
                                                         <div className="content-area">
-                                                            <Link href="/property-details-v1">Furnished 2 BHK Apartment</Link>
+                                                            <Link href="#">Furnished 2 BHK Apartment</Link>
                                                             <div className="space18" />
                                                             <p>Greater Noida, India</p>
                                                             <div className="space24" />
@@ -695,14 +625,7 @@ export default function Properties1() {
                                                                     </Link>
                                                                 </li>
                                                             </ul>
-                                                            <div className="btn-area">
-                                                                <Link href="#" className="nm-btn">
-                                                                    ₹24,000 / month
-                                                                </Link>
-                                                                <Link href="#" className="heart">
-                                                                    <img src="/assets/img/icons/heart1.svg" alt="housebox" className="heart1" /> <img src="/assets/img/icons/heart2.svg" alt="housebox" className="heart2" />
-                                                                </Link>
-                                                            </div>
+                                                            <div className="btn-area contact-actions"><Link href="https://wa.me/919876543210?text=Hello%2C%20I%27m%20interested%20in%20this%20rental" target="_blank" rel="noopener noreferrer" className="nm-btn contact-whatsapp"><i className="fa-brands fa-whatsapp" /> WhatsApp</Link><Link href="tel:+919876543210" className="nm-btn contact-call"><i className="fa-solid fa-phone" /> Call Now</Link></div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -714,15 +637,15 @@ export default function Properties1() {
                                                         <div className="category-list">
                                                             <ul>
                                                                 <li>
-                                                                    <Link href="/property-details-v1">Featured</Link>
+                                                                    <Link href="#">Featured</Link>
                                                                 </li>
                                                                 <li>
-                                                                    <Link href="/property-details-v1">For Rent</Link>
+                                                                    <Link href="#">For Rent</Link>
                                                                 </li>
                                                             </ul>
                                                         </div>
                                                         <div className="content-area">
-                                                            <Link href="/property-details-v1">Diamond Apartment</Link>
+                                                            <Link href="#">Diamond Apartment</Link>
                                                             <div className="space18" />
                                                             <p>Ghaziabad, India</p>
                                                             <div className="space24" />
@@ -746,14 +669,7 @@ export default function Properties1() {
                                                                     </Link>
                                                                 </li>
                                                             </ul>
-                                                            <div className="btn-area">
-                                                                <Link href="#" className="nm-btn">
-                                                                    ₹28,000 / month
-                                                                </Link>
-                                                                <Link href="#" className="heart">
-                                                                    <img src="/assets/img/icons/heart1.svg" alt="housebox" className="heart1" /> <img src="/assets/img/icons/heart2.svg" alt="housebox" className="heart2" />
-                                                                </Link>
-                                                            </div>
+                                                            <div className="btn-area contact-actions"><Link href="https://wa.me/919876543210?text=Hello%2C%20I%27m%20interested%20in%20this%20rental" target="_blank" rel="noopener noreferrer" className="nm-btn contact-whatsapp"><i className="fa-brands fa-whatsapp" /> WhatsApp</Link><Link href="tel:+919876543210" className="nm-btn contact-call"><i className="fa-solid fa-phone" /> Call Now</Link></div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -765,15 +681,15 @@ export default function Properties1() {
                                                         <div className="category-list">
                                                             <ul>
                                                                 <li>
-                                                                    <Link href="/property-details-v1">Featured</Link>
+                                                                    <Link href="#">Featured</Link>
                                                                 </li>
                                                                 <li>
-                                                                    <Link href="/property-details-v1">For Rent</Link>
+                                                                    <Link href="#">For Rent</Link>
                                                                 </li>
                                                             </ul>
                                                         </div>
                                                         <div className="content-area">
-                                                            <Link href="/property-details-v1">Three Room Apartment</Link>
+                                                            <Link href="#">Three Room Apartment</Link>
                                                             <div className="space18" />
                                                             <p>Delhi, India</p>
                                                             <div className="space24" />
@@ -797,14 +713,7 @@ export default function Properties1() {
                                                                     </Link>
                                                                 </li>
                                                             </ul>
-                                                            <div className="btn-area">
-                                                                <Link href="#" className="nm-btn">
-                                                                    ₹32,000 / month
-                                                                </Link>
-                                                                <Link href="#" className="heart">
-                                                                    <img src="/assets/img/icons/heart1.svg" alt="housebox" className="heart1" /> <img src="/assets/img/icons/heart2.svg" alt="housebox" className="heart2" />
-                                                                </Link>
-                                                            </div>
+                                                            <div className="btn-area contact-actions"><Link href="https://wa.me/919876543210?text=Hello%2C%20I%27m%20interested%20in%20this%20rental" target="_blank" rel="noopener noreferrer" className="nm-btn contact-whatsapp"><i className="fa-brands fa-whatsapp" /> WhatsApp</Link><Link href="tel:+919876543210" className="nm-btn contact-call"><i className="fa-solid fa-phone" /> Call Now</Link></div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -816,15 +725,15 @@ export default function Properties1() {
                                                         <div className="category-list">
                                                             <ul>
                                                                 <li>
-                                                                    <Link href="/property-details-v1">Featured</Link>
+                                                                    <Link href="#">Featured</Link>
                                                                 </li>
                                                                 <li>
-                                                                    <Link href="/property-details-v1">For Rent</Link>
+                                                                    <Link href="#">For Rent</Link>
                                                                 </li>
                                                             </ul>
                                                         </div>
                                                         <div className="content-area">
-                                                            <Link href="/property-details-v1">Family Home for Rent</Link>
+                                                            <Link href="#">Family Home for Rent</Link>
                                                             <div className="space18" />
                                                             <p>Noida, India</p>
                                                             <div className="space24" />
@@ -848,14 +757,7 @@ export default function Properties1() {
                                                                     </Link>
                                                                 </li>
                                                             </ul>
-                                                            <div className="btn-area">
-                                                                <Link href="#" className="nm-btn">
-                                                                    ₹36,000 / month
-                                                                </Link>
-                                                                <Link href="#" className="heart">
-                                                                    <img src="/assets/img/icons/heart1.svg" alt="housebox" className="heart1" /> <img src="/assets/img/icons/heart2.svg" alt="housebox" className="heart2" />
-                                                                </Link>
-                                                            </div>
+                                                            <div className="btn-area contact-actions"><Link href="https://wa.me/919876543210?text=Hello%2C%20I%27m%20interested%20in%20this%20rental" target="_blank" rel="noopener noreferrer" className="nm-btn contact-whatsapp"><i className="fa-brands fa-whatsapp" /> WhatsApp</Link><Link href="tel:+919876543210" className="nm-btn contact-call"><i className="fa-solid fa-phone" /> Call Now</Link></div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -867,15 +769,15 @@ export default function Properties1() {
                                                         <div className="category-list">
                                                             <ul>
                                                                 <li>
-                                                                    <Link href="/property-details-v1">Featured</Link>
+                                                                    <Link href="#">Featured</Link>
                                                                 </li>
                                                                 <li>
-                                                                    <Link href="/property-details-v1">For Rent</Link>
+                                                                    <Link href="#">For Rent</Link>
                                                                 </li>
                                                             </ul>
                                                         </div>
                                                         <div className="content-area">
-                                                            <Link href="/property-details-v1">Spacious Home for Rent</Link>
+                                                            <Link href="#">Spacious Home for Rent</Link>
                                                             <div className="space18" />
                                                             <p>Greater Noida, India</p>
                                                             <div className="space24" />
@@ -899,14 +801,7 @@ export default function Properties1() {
                                                                     </Link>
                                                                 </li>
                                                             </ul>
-                                                            <div className="btn-area">
-                                                                <Link href="#" className="nm-btn">
-                                                                    ₹42,000 / month
-                                                                </Link>
-                                                                <Link href="#" className="heart">
-                                                                    <img src="/assets/img/icons/heart1.svg" alt="housebox" className="heart1" /> <img src="/assets/img/icons/heart2.svg" alt="housebox" className="heart2" />
-                                                                </Link>
-                                                            </div>
+                                                            <div className="btn-area contact-actions"><Link href="https://wa.me/919876543210?text=Hello%2C%20I%27m%20interested%20in%20this%20rental" target="_blank" rel="noopener noreferrer" className="nm-btn contact-whatsapp"><i className="fa-brands fa-whatsapp" /> WhatsApp</Link><Link href="tel:+919876543210" className="nm-btn contact-call"><i className="fa-solid fa-phone" /> Call Now</Link></div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -922,15 +817,15 @@ export default function Properties1() {
                                                         <div className="category-list">
                                                             <ul>
                                                                 <li>
-                                                                    <Link href="/property-details-v1">Featured</Link>
+                                                                    <Link href="#">Featured</Link>
                                                                 </li>
                                                                 <li>
-                                                                    <Link href="/property-details-v1">For Rent</Link>
+                                                                    <Link href="#">For Rent</Link>
                                                                 </li>
                                                             </ul>
                                                         </div>
                                                         <div className="content-area">
-                                                            <Link href="/property-details-v1">Apartment Complex</Link>
+                                                            <Link href="#">Apartment Complex</Link>
                                                             <div className="space18" />
                                                             <p>Ghaziabad, India</p>
                                                             <div className="space24" />
@@ -954,14 +849,7 @@ export default function Properties1() {
                                                                     </Link>
                                                                 </li>
                                                             </ul>
-                                                            <div className="btn-area">
-                                                                <Link href="#" className="nm-btn">
-                                                                    ₹24,000 / month
-                                                                </Link>
-                                                                <Link href="#" className="heart">
-                                                                    <img src="/assets/img/icons/heart1.svg" alt="housebox" className="heart1" /> <img src="/assets/img/icons/heart2.svg" alt="housebox" className="heart2" />
-                                                                </Link>
-                                                            </div>
+                                                            <div className="btn-area contact-actions"><Link href="https://wa.me/919876543210?text=Hello%2C%20I%27m%20interested%20in%20this%20rental" target="_blank" rel="noopener noreferrer" className="nm-btn contact-whatsapp"><i className="fa-brands fa-whatsapp" /> WhatsApp</Link><Link href="tel:+919876543210" className="nm-btn contact-call"><i className="fa-solid fa-phone" /> Call Now</Link></div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -973,15 +861,15 @@ export default function Properties1() {
                                                         <div className="category-list">
                                                             <ul>
                                                                 <li>
-                                                                    <Link href="/property-details-v1">Featured</Link>
+                                                                    <Link href="#">Featured</Link>
                                                                 </li>
                                                                 <li>
-                                                                    <Link href="/property-details-v1">For Rent</Link>
+                                                                    <Link href="#">For Rent</Link>
                                                                 </li>
                                                             </ul>
                                                         </div>
                                                         <div className="content-area">
-                                                            <Link href="/property-details-v1">Furnished 2 BHK Apartment</Link>
+                                                            <Link href="#">Furnished 2 BHK Apartment</Link>
                                                             <div className="space18" />
                                                             <p>Delhi, India</p>
                                                             <div className="space24" />
@@ -1005,14 +893,7 @@ export default function Properties1() {
                                                                     </Link>
                                                                 </li>
                                                             </ul>
-                                                            <div className="btn-area">
-                                                                <Link href="#" className="nm-btn">
-                                                                    ₹28,000 / month
-                                                                </Link>
-                                                                <Link href="#" className="heart">
-                                                                    <img src="/assets/img/icons/heart1.svg" alt="housebox" className="heart1" /> <img src="/assets/img/icons/heart2.svg" alt="housebox" className="heart2" />
-                                                                </Link>
-                                                            </div>
+                                                            <div className="btn-area contact-actions"><Link href="https://wa.me/919876543210?text=Hello%2C%20I%27m%20interested%20in%20this%20rental" target="_blank" rel="noopener noreferrer" className="nm-btn contact-whatsapp"><i className="fa-brands fa-whatsapp" /> WhatsApp</Link><Link href="tel:+919876543210" className="nm-btn contact-call"><i className="fa-solid fa-phone" /> Call Now</Link></div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1024,15 +905,15 @@ export default function Properties1() {
                                                         <div className="category-list">
                                                             <ul>
                                                                 <li>
-                                                                    <Link href="/property-details-v1">Featured</Link>
+                                                                    <Link href="#">Featured</Link>
                                                                 </li>
                                                                 <li>
-                                                                    <Link href="/property-details-v1">For Rent</Link>
+                                                                    <Link href="#">For Rent</Link>
                                                                 </li>
                                                             </ul>
                                                         </div>
                                                         <div className="content-area">
-                                                            <Link href="/property-details-v1">Diamond Apartment</Link>
+                                                            <Link href="#">Diamond Apartment</Link>
                                                             <div className="space18" />
                                                             <p>Noida, India</p>
                                                             <div className="space24" />
@@ -1056,14 +937,7 @@ export default function Properties1() {
                                                                     </Link>
                                                                 </li>
                                                             </ul>
-                                                            <div className="btn-area">
-                                                                <Link href="#" className="nm-btn">
-                                                                    ₹32,000 / month
-                                                                </Link>
-                                                                <Link href="#" className="heart">
-                                                                    <img src="/assets/img/icons/heart1.svg" alt="housebox" className="heart1" /> <img src="/assets/img/icons/heart2.svg" alt="housebox" className="heart2" />
-                                                                </Link>
-                                                            </div>
+                                                            <div className="btn-area contact-actions"><Link href="https://wa.me/919876543210?text=Hello%2C%20I%27m%20interested%20in%20this%20rental" target="_blank" rel="noopener noreferrer" className="nm-btn contact-whatsapp"><i className="fa-brands fa-whatsapp" /> WhatsApp</Link><Link href="tel:+919876543210" className="nm-btn contact-call"><i className="fa-solid fa-phone" /> Call Now</Link></div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1075,15 +949,15 @@ export default function Properties1() {
                                                         <div className="category-list">
                                                             <ul>
                                                                 <li>
-                                                                    <Link href="/property-details-v1">Featured</Link>
+                                                                    <Link href="#">Featured</Link>
                                                                 </li>
                                                                 <li>
-                                                                    <Link href="/property-details-v1">For Rent</Link>
+                                                                    <Link href="#">For Rent</Link>
                                                                 </li>
                                                             </ul>
                                                         </div>
                                                         <div className="content-area">
-                                                            <Link href="/property-details-v1">Three Room Apartment</Link>
+                                                            <Link href="#">Three Room Apartment</Link>
                                                             <div className="space18" />
                                                             <p>Greater Noida, India</p>
                                                             <div className="space24" />
@@ -1107,14 +981,7 @@ export default function Properties1() {
                                                                     </Link>
                                                                 </li>
                                                             </ul>
-                                                            <div className="btn-area">
-                                                                <Link href="#" className="nm-btn">
-                                                                    ₹36,000 / month
-                                                                </Link>
-                                                                <Link href="#" className="heart">
-                                                                    <img src="/assets/img/icons/heart1.svg" alt="housebox" className="heart1" /> <img src="/assets/img/icons/heart2.svg" alt="housebox" className="heart2" />
-                                                                </Link>
-                                                            </div>
+                                                            <div className="btn-area contact-actions"><Link href="https://wa.me/919876543210?text=Hello%2C%20I%27m%20interested%20in%20this%20rental" target="_blank" rel="noopener noreferrer" className="nm-btn contact-whatsapp"><i className="fa-brands fa-whatsapp" /> WhatsApp</Link><Link href="tel:+919876543210" className="nm-btn contact-call"><i className="fa-solid fa-phone" /> Call Now</Link></div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1126,15 +993,15 @@ export default function Properties1() {
                                                         <div className="category-list">
                                                             <ul>
                                                                 <li>
-                                                                    <Link href="/property-details-v1">Featured</Link>
+                                                                    <Link href="#">Featured</Link>
                                                                 </li>
                                                                 <li>
-                                                                    <Link href="/property-details-v1">For Rent</Link>
+                                                                    <Link href="#">For Rent</Link>
                                                                 </li>
                                                             </ul>
                                                         </div>
                                                         <div className="content-area">
-                                                            <Link href="/property-details-v1">Family Home for Rent</Link>
+                                                            <Link href="#">Family Home for Rent</Link>
                                                             <div className="space18" />
                                                             <p>Ghaziabad, India</p>
                                                             <div className="space24" />
@@ -1158,14 +1025,7 @@ export default function Properties1() {
                                                                     </Link>
                                                                 </li>
                                                             </ul>
-                                                            <div className="btn-area">
-                                                                <Link href="#" className="nm-btn">
-                                                                    ₹42,000 / month
-                                                                </Link>
-                                                                <Link href="#" className="heart">
-                                                                    <img src="/assets/img/icons/heart1.svg" alt="housebox" className="heart1" /> <img src="/assets/img/icons/heart2.svg" alt="housebox" className="heart2" />
-                                                                </Link>
-                                                            </div>
+                                                            <div className="btn-area contact-actions"><Link href="https://wa.me/919876543210?text=Hello%2C%20I%27m%20interested%20in%20this%20rental" target="_blank" rel="noopener noreferrer" className="nm-btn contact-whatsapp"><i className="fa-brands fa-whatsapp" /> WhatsApp</Link><Link href="tel:+919876543210" className="nm-btn contact-call"><i className="fa-solid fa-phone" /> Call Now</Link></div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1177,15 +1037,15 @@ export default function Properties1() {
                                                         <div className="category-list">
                                                             <ul>
                                                                 <li>
-                                                                    <Link href="/property-details-v1">Featured</Link>
+                                                                    <Link href="#">Featured</Link>
                                                                 </li>
                                                                 <li>
-                                                                    <Link href="/property-details-v1">For Rent</Link>
+                                                                    <Link href="#">For Rent</Link>
                                                                 </li>
                                                             </ul>
                                                         </div>
                                                         <div className="content-area">
-                                                            <Link href="/property-details-v1">Spacious Home for Rent</Link>
+                                                            <Link href="#">Spacious Home for Rent</Link>
                                                             <div className="space18" />
                                                             <p>Delhi, India</p>
                                                             <div className="space24" />
@@ -1209,14 +1069,7 @@ export default function Properties1() {
                                                                     </Link>
                                                                 </li>
                                                             </ul>
-                                                            <div className="btn-area">
-                                                                <Link href="#" className="nm-btn">
-                                                                    ₹24,000 / month
-                                                                </Link>
-                                                                <Link href="#" className="heart">
-                                                                    <img src="/assets/img/icons/heart1.svg" alt="housebox" className="heart1" /> <img src="/assets/img/icons/heart2.svg" alt="housebox" className="heart2" />
-                                                                </Link>
-                                                            </div>
+                                                            <div className="btn-area contact-actions"><Link href="https://wa.me/919876543210?text=Hello%2C%20I%27m%20interested%20in%20this%20rental" target="_blank" rel="noopener noreferrer" className="nm-btn contact-whatsapp"><i className="fa-brands fa-whatsapp" /> WhatsApp</Link><Link href="tel:+919876543210" className="nm-btn contact-call"><i className="fa-solid fa-phone" /> Call Now</Link></div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1232,15 +1085,15 @@ export default function Properties1() {
                                                         <div className="category-list">
                                                             <ul>
                                                                 <li>
-                                                                    <Link href="/property-details-v1">Featured</Link>
+                                                                    <Link href="#">Featured</Link>
                                                                 </li>
                                                                 <li>
-                                                                    <Link href="/property-details-v1">For Rent</Link>
+                                                                    <Link href="#">For Rent</Link>
                                                                 </li>
                                                             </ul>
                                                         </div>
                                                         <div className="content-area">
-                                                            <Link href="/property-details-v1">Apartment Complex</Link>
+                                                            <Link href="#">Apartment Complex</Link>
                                                             <div className="space18" />
                                                             <p>Noida, India</p>
                                                             <div className="space24" />
@@ -1264,14 +1117,7 @@ export default function Properties1() {
                                                                     </Link>
                                                                 </li>
                                                             </ul>
-                                                            <div className="btn-area">
-                                                                <Link href="#" className="nm-btn">
-                                                                    ₹28,000 / month
-                                                                </Link>
-                                                                <Link href="#" className="heart">
-                                                                    <img src="/assets/img/icons/heart1.svg" alt="housebox" className="heart1" /> <img src="/assets/img/icons/heart2.svg" alt="housebox" className="heart2" />
-                                                                </Link>
-                                                            </div>
+                                                            <div className="btn-area contact-actions"><Link href="https://wa.me/919876543210?text=Hello%2C%20I%27m%20interested%20in%20this%20rental" target="_blank" rel="noopener noreferrer" className="nm-btn contact-whatsapp"><i className="fa-brands fa-whatsapp" /> WhatsApp</Link><Link href="tel:+919876543210" className="nm-btn contact-call"><i className="fa-solid fa-phone" /> Call Now</Link></div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1283,15 +1129,15 @@ export default function Properties1() {
                                                         <div className="category-list">
                                                             <ul>
                                                                 <li>
-                                                                    <Link href="/property-details-v1">Featured</Link>
+                                                                    <Link href="#">Featured</Link>
                                                                 </li>
                                                                 <li>
-                                                                    <Link href="/property-details-v1">For Rent</Link>
+                                                                    <Link href="#">For Rent</Link>
                                                                 </li>
                                                             </ul>
                                                         </div>
                                                         <div className="content-area">
-                                                            <Link href="/property-details-v1">Furnished 2 BHK Apartment</Link>
+                                                            <Link href="#">Furnished 2 BHK Apartment</Link>
                                                             <div className="space18" />
                                                             <p>Greater Noida, India</p>
                                                             <div className="space24" />
@@ -1315,14 +1161,7 @@ export default function Properties1() {
                                                                     </Link>
                                                                 </li>
                                                             </ul>
-                                                            <div className="btn-area">
-                                                                <Link href="#" className="nm-btn">
-                                                                    ₹32,000 / month
-                                                                </Link>
-                                                                <Link href="#" className="heart">
-                                                                    <img src="/assets/img/icons/heart1.svg" alt="housebox" className="heart1" /> <img src="/assets/img/icons/heart2.svg" alt="housebox" className="heart2" />
-                                                                </Link>
-                                                            </div>
+                                                            <div className="btn-area contact-actions"><Link href="https://wa.me/919876543210?text=Hello%2C%20I%27m%20interested%20in%20this%20rental" target="_blank" rel="noopener noreferrer" className="nm-btn contact-whatsapp"><i className="fa-brands fa-whatsapp" /> WhatsApp</Link><Link href="tel:+919876543210" className="nm-btn contact-call"><i className="fa-solid fa-phone" /> Call Now</Link></div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1334,15 +1173,15 @@ export default function Properties1() {
                                                         <div className="category-list">
                                                             <ul>
                                                                 <li>
-                                                                    <Link href="/property-details-v1">Featured</Link>
+                                                                    <Link href="#">Featured</Link>
                                                                 </li>
                                                                 <li>
-                                                                    <Link href="/property-details-v1">For Rent</Link>
+                                                                    <Link href="#">For Rent</Link>
                                                                 </li>
                                                             </ul>
                                                         </div>
                                                         <div className="content-area">
-                                                            <Link href="/property-details-v1">Diamond Apartment</Link>
+                                                            <Link href="#">Diamond Apartment</Link>
                                                             <div className="space18" />
                                                             <p>Ghaziabad, India</p>
                                                             <div className="space24" />
@@ -1366,14 +1205,7 @@ export default function Properties1() {
                                                                     </Link>
                                                                 </li>
                                                             </ul>
-                                                            <div className="btn-area">
-                                                                <Link href="#" className="nm-btn">
-                                                                    ₹36,000 / month
-                                                                </Link>
-                                                                <Link href="#" className="heart">
-                                                                    <img src="/assets/img/icons/heart1.svg" alt="housebox" className="heart1" /> <img src="/assets/img/icons/heart2.svg" alt="housebox" className="heart2" />
-                                                                </Link>
-                                                            </div>
+                                                            <div className="btn-area contact-actions"><Link href="https://wa.me/919876543210?text=Hello%2C%20I%27m%20interested%20in%20this%20rental" target="_blank" rel="noopener noreferrer" className="nm-btn contact-whatsapp"><i className="fa-brands fa-whatsapp" /> WhatsApp</Link><Link href="tel:+919876543210" className="nm-btn contact-call"><i className="fa-solid fa-phone" /> Call Now</Link></div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1385,15 +1217,15 @@ export default function Properties1() {
                                                         <div className="category-list">
                                                             <ul>
                                                                 <li>
-                                                                    <Link href="/property-details-v1">Featured</Link>
+                                                                    <Link href="#">Featured</Link>
                                                                 </li>
                                                                 <li>
-                                                                    <Link href="/property-details-v1">For Rent</Link>
+                                                                    <Link href="#">For Rent</Link>
                                                                 </li>
                                                             </ul>
                                                         </div>
                                                         <div className="content-area">
-                                                            <Link href="/property-details-v1">Three Room Apartment</Link>
+                                                            <Link href="#">Three Room Apartment</Link>
                                                             <div className="space18" />
                                                             <p>Delhi, India</p>
                                                             <div className="space24" />
@@ -1417,14 +1249,7 @@ export default function Properties1() {
                                                                     </Link>
                                                                 </li>
                                                             </ul>
-                                                            <div className="btn-area">
-                                                                <Link href="#" className="nm-btn">
-                                                                    ₹42,000 / month
-                                                                </Link>
-                                                                <Link href="#" className="heart">
-                                                                    <img src="/assets/img/icons/heart1.svg" alt="housebox" className="heart1" /> <img src="/assets/img/icons/heart2.svg" alt="housebox" className="heart2" />
-                                                                </Link>
-                                                            </div>
+                                                            <div className="btn-area contact-actions"><Link href="https://wa.me/919876543210?text=Hello%2C%20I%27m%20interested%20in%20this%20rental" target="_blank" rel="noopener noreferrer" className="nm-btn contact-whatsapp"><i className="fa-brands fa-whatsapp" /> WhatsApp</Link><Link href="tel:+919876543210" className="nm-btn contact-call"><i className="fa-solid fa-phone" /> Call Now</Link></div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1436,15 +1261,15 @@ export default function Properties1() {
                                                         <div className="category-list">
                                                             <ul>
                                                                 <li>
-                                                                    <Link href="/property-details-v1">Featured</Link>
+                                                                    <Link href="#">Featured</Link>
                                                                 </li>
                                                                 <li>
-                                                                    <Link href="/property-details-v1">For Rent</Link>
+                                                                    <Link href="#">For Rent</Link>
                                                                 </li>
                                                             </ul>
                                                         </div>
                                                         <div className="content-area">
-                                                            <Link href="/property-details-v1">Family Home for Rent</Link>
+                                                            <Link href="#">Family Home for Rent</Link>
                                                             <div className="space18" />
                                                             <p>Noida, India</p>
                                                             <div className="space24" />
@@ -1468,14 +1293,7 @@ export default function Properties1() {
                                                                     </Link>
                                                                 </li>
                                                             </ul>
-                                                            <div className="btn-area">
-                                                                <Link href="#" className="nm-btn">
-                                                                    ₹24,000 / month
-                                                                </Link>
-                                                                <Link href="#" className="heart">
-                                                                    <img src="/assets/img/icons/heart1.svg" alt="housebox" className="heart1" /> <img src="/assets/img/icons/heart2.svg" alt="housebox" className="heart2" />
-                                                                </Link>
-                                                            </div>
+                                                            <div className="btn-area contact-actions"><Link href="https://wa.me/919876543210?text=Hello%2C%20I%27m%20interested%20in%20this%20rental" target="_blank" rel="noopener noreferrer" className="nm-btn contact-whatsapp"><i className="fa-brands fa-whatsapp" /> WhatsApp</Link><Link href="tel:+919876543210" className="nm-btn contact-call"><i className="fa-solid fa-phone" /> Call Now</Link></div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1487,15 +1305,15 @@ export default function Properties1() {
                                                         <div className="category-list">
                                                             <ul>
                                                                 <li>
-                                                                    <Link href="/property-details-v1">Featured</Link>
+                                                                    <Link href="#">Featured</Link>
                                                                 </li>
                                                                 <li>
-                                                                    <Link href="/property-details-v1">For Rent</Link>
+                                                                    <Link href="#">For Rent</Link>
                                                                 </li>
                                                             </ul>
                                                         </div>
                                                         <div className="content-area">
-                                                            <Link href="/property-details-v1">Spacious Home for Rent</Link>
+                                                            <Link href="#">Spacious Home for Rent</Link>
                                                             <div className="space18" />
                                                             <p>Greater Noida, India</p>
                                                             <div className="space24" />
@@ -1519,14 +1337,7 @@ export default function Properties1() {
                                                                     </Link>
                                                                 </li>
                                                             </ul>
-                                                            <div className="btn-area">
-                                                                <Link href="#" className="nm-btn">
-                                                                    ₹28,000 / month
-                                                                </Link>
-                                                                <Link href="#" className="heart">
-                                                                    <img src="/assets/img/icons/heart1.svg" alt="housebox" className="heart1" /> <img src="/assets/img/icons/heart2.svg" alt="housebox" className="heart2" />
-                                                                </Link>
-                                                            </div>
+                                                            <div className="btn-area contact-actions"><Link href="https://wa.me/919876543210?text=Hello%2C%20I%27m%20interested%20in%20this%20rental" target="_blank" rel="noopener noreferrer" className="nm-btn contact-whatsapp"><i className="fa-brands fa-whatsapp" /> WhatsApp</Link><Link href="tel:+919876543210" className="nm-btn contact-call"><i className="fa-solid fa-phone" /> Call Now</Link></div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1542,15 +1353,15 @@ export default function Properties1() {
                                                         <div className="category-list">
                                                             <ul>
                                                                 <li>
-                                                                    <Link href="/property-details-v1">Featured</Link>
+                                                                    <Link href="#">Featured</Link>
                                                                 </li>
                                                                 <li>
-                                                                    <Link href="/property-details-v1">For Rent</Link>
+                                                                    <Link href="#">For Rent</Link>
                                                                 </li>
                                                             </ul>
                                                         </div>
                                                         <div className="content-area">
-                                                            <Link href="/property-details-v1">Apartment Complex</Link>
+                                                            <Link href="#">Apartment Complex</Link>
                                                             <div className="space18" />
                                                             <p>Ghaziabad, India</p>
                                                             <div className="space24" />
@@ -1574,14 +1385,7 @@ export default function Properties1() {
                                                                     </Link>
                                                                 </li>
                                                             </ul>
-                                                            <div className="btn-area">
-                                                                <Link href="#" className="nm-btn">
-                                                                    ₹32,000 / month
-                                                                </Link>
-                                                                <Link href="#" className="heart">
-                                                                    <img src="/assets/img/icons/heart1.svg" alt="housebox" className="heart1" /> <img src="/assets/img/icons/heart2.svg" alt="housebox" className="heart2" />
-                                                                </Link>
-                                                            </div>
+                                                            <div className="btn-area contact-actions"><Link href="https://wa.me/919876543210?text=Hello%2C%20I%27m%20interested%20in%20this%20rental" target="_blank" rel="noopener noreferrer" className="nm-btn contact-whatsapp"><i className="fa-brands fa-whatsapp" /> WhatsApp</Link><Link href="tel:+919876543210" className="nm-btn contact-call"><i className="fa-solid fa-phone" /> Call Now</Link></div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1593,15 +1397,15 @@ export default function Properties1() {
                                                         <div className="category-list">
                                                             <ul>
                                                                 <li>
-                                                                    <Link href="/property-details-v1">Featured</Link>
+                                                                    <Link href="#">Featured</Link>
                                                                 </li>
                                                                 <li>
-                                                                    <Link href="/property-details-v1">For Rent</Link>
+                                                                    <Link href="#">For Rent</Link>
                                                                 </li>
                                                             </ul>
                                                         </div>
                                                         <div className="content-area">
-                                                            <Link href="/property-details-v1">Furnished 2 BHK Apartment</Link>
+                                                            <Link href="#">Furnished 2 BHK Apartment</Link>
                                                             <div className="space18" />
                                                             <p>Delhi, India</p>
                                                             <div className="space24" />
@@ -1625,14 +1429,7 @@ export default function Properties1() {
                                                                     </Link>
                                                                 </li>
                                                             </ul>
-                                                            <div className="btn-area">
-                                                                <Link href="#" className="nm-btn">
-                                                                    ₹36,000 / month
-                                                                </Link>
-                                                                <Link href="#" className="heart">
-                                                                    <img src="/assets/img/icons/heart1.svg" alt="housebox" className="heart1" /> <img src="/assets/img/icons/heart2.svg" alt="housebox" className="heart2" />
-                                                                </Link>
-                                                            </div>
+                                                            <div className="btn-area contact-actions"><Link href="https://wa.me/919876543210?text=Hello%2C%20I%27m%20interested%20in%20this%20rental" target="_blank" rel="noopener noreferrer" className="nm-btn contact-whatsapp"><i className="fa-brands fa-whatsapp" /> WhatsApp</Link><Link href="tel:+919876543210" className="nm-btn contact-call"><i className="fa-solid fa-phone" /> Call Now</Link></div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1644,15 +1441,15 @@ export default function Properties1() {
                                                         <div className="category-list">
                                                             <ul>
                                                                 <li>
-                                                                    <Link href="/property-details-v1">Featured</Link>
+                                                                    <Link href="#">Featured</Link>
                                                                 </li>
                                                                 <li>
-                                                                    <Link href="/property-details-v1">For Rent</Link>
+                                                                    <Link href="#">For Rent</Link>
                                                                 </li>
                                                             </ul>
                                                         </div>
                                                         <div className="content-area">
-                                                            <Link href="/property-details-v1">Diamond Apartment</Link>
+                                                            <Link href="#">Diamond Apartment</Link>
                                                             <div className="space18" />
                                                             <p>Noida, India</p>
                                                             <div className="space24" />
@@ -1676,14 +1473,7 @@ export default function Properties1() {
                                                                     </Link>
                                                                 </li>
                                                             </ul>
-                                                            <div className="btn-area">
-                                                                <Link href="#" className="nm-btn">
-                                                                    ₹42,000 / month
-                                                                </Link>
-                                                                <Link href="#" className="heart">
-                                                                    <img src="/assets/img/icons/heart1.svg" alt="housebox" className="heart1" /> <img src="/assets/img/icons/heart2.svg" alt="housebox" className="heart2" />
-                                                                </Link>
-                                                            </div>
+                                                            <div className="btn-area contact-actions"><Link href="https://wa.me/919876543210?text=Hello%2C%20I%27m%20interested%20in%20this%20rental" target="_blank" rel="noopener noreferrer" className="nm-btn contact-whatsapp"><i className="fa-brands fa-whatsapp" /> WhatsApp</Link><Link href="tel:+919876543210" className="nm-btn contact-call"><i className="fa-solid fa-phone" /> Call Now</Link></div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1695,15 +1485,15 @@ export default function Properties1() {
                                                         <div className="category-list">
                                                             <ul>
                                                                 <li>
-                                                                    <Link href="/property-details-v1">Featured</Link>
+                                                                    <Link href="#">Featured</Link>
                                                                 </li>
                                                                 <li>
-                                                                    <Link href="/property-details-v1">For Rent</Link>
+                                                                    <Link href="#">For Rent</Link>
                                                                 </li>
                                                             </ul>
                                                         </div>
                                                         <div className="content-area">
-                                                            <Link href="/property-details-v1">Three Room Apartment</Link>
+                                                            <Link href="#">Three Room Apartment</Link>
                                                             <div className="space18" />
                                                             <p>Greater Noida, India</p>
                                                             <div className="space24" />
@@ -1727,14 +1517,7 @@ export default function Properties1() {
                                                                     </Link>
                                                                 </li>
                                                             </ul>
-                                                            <div className="btn-area">
-                                                                <Link href="#" className="nm-btn">
-                                                                    ₹24,000 / month
-                                                                </Link>
-                                                                <Link href="#" className="heart">
-                                                                    <img src="/assets/img/icons/heart1.svg" alt="housebox" className="heart1" /> <img src="/assets/img/icons/heart2.svg" alt="housebox" className="heart2" />
-                                                                </Link>
-                                                            </div>
+                                                            <div className="btn-area contact-actions"><Link href="https://wa.me/919876543210?text=Hello%2C%20I%27m%20interested%20in%20this%20rental" target="_blank" rel="noopener noreferrer" className="nm-btn contact-whatsapp"><i className="fa-brands fa-whatsapp" /> WhatsApp</Link><Link href="tel:+919876543210" className="nm-btn contact-call"><i className="fa-solid fa-phone" /> Call Now</Link></div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1746,15 +1529,15 @@ export default function Properties1() {
                                                         <div className="category-list">
                                                             <ul>
                                                                 <li>
-                                                                    <Link href="/property-details-v1">Featured</Link>
+                                                                    <Link href="#">Featured</Link>
                                                                 </li>
                                                                 <li>
-                                                                    <Link href="/property-details-v1">For Rent</Link>
+                                                                    <Link href="#">For Rent</Link>
                                                                 </li>
                                                             </ul>
                                                         </div>
                                                         <div className="content-area">
-                                                            <Link href="/property-details-v1">Family Home for Rent</Link>
+                                                            <Link href="#">Family Home for Rent</Link>
                                                             <div className="space18" />
                                                             <p>Ghaziabad, India</p>
                                                             <div className="space24" />
@@ -1778,14 +1561,7 @@ export default function Properties1() {
                                                                     </Link>
                                                                 </li>
                                                             </ul>
-                                                            <div className="btn-area">
-                                                                <Link href="#" className="nm-btn">
-                                                                    ₹28,000 / month
-                                                                </Link>
-                                                                <Link href="#" className="heart">
-                                                                    <img src="/assets/img/icons/heart1.svg" alt="housebox" className="heart1" /> <img src="/assets/img/icons/heart2.svg" alt="housebox" className="heart2" />
-                                                                </Link>
-                                                            </div>
+                                                            <div className="btn-area contact-actions"><Link href="https://wa.me/919876543210?text=Hello%2C%20I%27m%20interested%20in%20this%20rental" target="_blank" rel="noopener noreferrer" className="nm-btn contact-whatsapp"><i className="fa-brands fa-whatsapp" /> WhatsApp</Link><Link href="tel:+919876543210" className="nm-btn contact-call"><i className="fa-solid fa-phone" /> Call Now</Link></div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1797,15 +1573,15 @@ export default function Properties1() {
                                                         <div className="category-list">
                                                             <ul>
                                                                 <li>
-                                                                    <Link href="/property-details-v1">Featured</Link>
+                                                                    <Link href="#">Featured</Link>
                                                                 </li>
                                                                 <li>
-                                                                    <Link href="/property-details-v1">For Rent</Link>
+                                                                    <Link href="#">For Rent</Link>
                                                                 </li>
                                                             </ul>
                                                         </div>
                                                         <div className="content-area">
-                                                            <Link href="/property-details-v1">Spacious Home for Rent</Link>
+                                                            <Link href="#">Spacious Home for Rent</Link>
                                                             <div className="space18" />
                                                             <p>Delhi, India</p>
                                                             <div className="space24" />
@@ -1829,14 +1605,7 @@ export default function Properties1() {
                                                                     </Link>
                                                                 </li>
                                                             </ul>
-                                                            <div className="btn-area">
-                                                                <Link href="#" className="nm-btn">
-                                                                    ₹32,000 / month
-                                                                </Link>
-                                                                <Link href="#" className="heart">
-                                                                    <img src="/assets/img/icons/heart1.svg" alt="housebox" className="heart1" /> <img src="/assets/img/icons/heart2.svg" alt="housebox" className="heart2" />
-                                                                </Link>
-                                                            </div>
+                                                            <div className="btn-area contact-actions"><Link href="https://wa.me/919876543210?text=Hello%2C%20I%27m%20interested%20in%20this%20rental" target="_blank" rel="noopener noreferrer" className="nm-btn contact-whatsapp"><i className="fa-brands fa-whatsapp" /> WhatsApp</Link><Link href="tel:+919876543210" className="nm-btn contact-call"><i className="fa-solid fa-phone" /> Call Now</Link></div>
                                                         </div>
                                                     </div>
                                                 </div>

@@ -5,8 +5,26 @@ import { useState, useRef, useEffect } from 'react'
 const CITIES = ['Delhi', 'Noida', 'Greater Noida', 'Ghaziabad']
 const MAX_BUDGET = 100000
 
+type FilterKey = 'with' | 'bhk' | 'bath' | 'floor' | 'type' | 'by' | 'pref' | 'furn' | 'age'
+type SectionKey = 'budget' | FilterKey
+type TabId = 'residential' | 'commercial' | 'pg'
+type Selection = Record<FilterKey, string[]>
+
+interface Section {
+	key: SectionKey
+	title: string
+	options?: string[]
+	checkbox?: boolean
+}
+
+interface Tab {
+	id: TabId
+	label: string
+	placeholder: string
+}
+
 // key, nav label, options (budget is a special slider section)
-const SECTIONS = [
+const SECTIONS: Section[] = [
 	{ key: 'budget', title: 'Monthly Budget' },
 	{ key: 'with', title: 'Properties With', options: ['Photos', 'Videos'] },
 	{ key: 'bhk', title: 'BHK Configuration', options: ['1 RK', '1 BHK', '2 BHK', '3 BHK', '4 BHK', '5+ BHK'] },
@@ -18,31 +36,36 @@ const SECTIONS = [
 	{ key: 'furn', title: 'Furnishing', options: ['Fully', 'Semi', 'Unfurnished'] },
 	{ key: 'age', title: 'Property Age (in years)', options: ['0-1', 'Less than 5', '5-10', '10+'] },
 ]
-const TABS = [
+
+const TABS: Tab[] = [
 	{ id: 'residential', label: 'Residential', placeholder: 'Search by Builder' },
 	{ id: 'commercial', label: 'Commercial', placeholder: 'Search by Offices' },
 	{ id: 'pg', label: 'PG / Flat Share', placeholder: 'Search by Locality or PG' },
 ]
-const EMPTY_SEL = { with: [], bhk: [], bath: [], floor: [], type: [], by: [], pref: [], furn: [], age: [] }
-const inr = (n) => '₹' + Number(n).toLocaleString('en-IN')
+
+const EMPTY_SEL: Selection = { with: [], bhk: [], bath: [], floor: [], type: [], by: [], pref: [], furn: [], age: [] }
+const inr = (n: number) => '₹' + Number(n).toLocaleString('en-IN')
+const toggle = (list: string[], v: string): string[] => (list.includes(v) ? list.filter((x) => x !== v) : [...list, v])
 
 export default function Others1() {
-	const [tab, setTab] = useState('residential')
-	const [showAdv, setShowAdv] = useState(false)
-	const [section, setSection] = useState('budget')
-	const [cityOpen, setCityOpen] = useState(false)
-	const [cityQuery, setCityQuery] = useState('')
-	const [cities, setCities] = useState([])
-	const [query, setQuery] = useState('')
-	const [range, setRange] = useState([0, MAX_BUDGET])
-	const [sel, setSel] = useState(EMPTY_SEL)
-	const [coords, setCoords] = useState(null)
-	const [locState, setLocState] = useState('idle') // idle | busy | done | error
-	const [locMsg, setLocMsg] = useState('')
-	const cityRef = useRef(null)
+	const [tab, setTab] = useState<TabId>('residential')
+	const [showAdv, setShowAdv] = useState<boolean>(false)
+	const [section, setSection] = useState<SectionKey>('budget')
+	const [cityOpen, setCityOpen] = useState<boolean>(false)
+	const [cityQuery, setCityQuery] = useState<string>('')
+	const [cities, setCities] = useState<string[]>([])
+	const [query, setQuery] = useState<string>('')
+	const [range, setRange] = useState<[number, number]>([0, MAX_BUDGET])
+	const [sel, setSel] = useState<Selection>(EMPTY_SEL)
+	const [coords, setCoords] = useState<{ lat: number; lng: number } | null>(null)
+	const [locState, setLocState] = useState<'idle' | 'busy' | 'done' | 'error'>('idle')
+	const [locMsg, setLocMsg] = useState<string>('')
+	const cityRef = useRef<HTMLDivElement | null>(null)
 
 	useEffect(() => {
-		const onDoc = (e) => cityRef.current && !cityRef.current.contains(e.target) && setCityOpen(false)
+		const onDoc = (e: MouseEvent) => {
+			if (cityRef.current && !cityRef.current.contains(e.target as Node)) setCityOpen(false)
+		}
 		document.addEventListener('mousedown', onDoc)
 		return () => document.removeEventListener('mousedown', onDoc)
 	}, [])
@@ -51,14 +74,18 @@ export default function Others1() {
 		if (locState === 'busy') return
 		if (coords) {
 			// second click clears the location
-			setCoords(null); setLocState('idle'); setLocMsg('')
+			setCoords(null)
+			setLocState('idle')
+			setLocMsg('')
 			return
 		}
 		if (!('geolocation' in navigator)) {
-			setLocState('error'); setLocMsg('Location is not supported in this browser.')
+			setLocState('error')
+			setLocMsg('Location is not supported in this browser.')
 			return
 		}
-		setLocState('busy'); setLocMsg('Getting your location…')
+		setLocState('busy')
+		setLocMsg('Getting your location…')
 		navigator.geolocation.getCurrentPosition(
 			async ({ coords: { latitude, longitude } }) => {
 				setCoords({ lat: latitude, lng: longitude })
@@ -66,11 +93,12 @@ export default function Others1() {
 					const res = await fetch(
 						`https://nominatim.openstreetmap.org/reverse?format=jsonv2&zoom=16&lat=${latitude}&lon=${longitude}`
 					)
-					const data = await res.json()
-					const a = data.address || {}
-					const locality = a.suburb || a.neighbourhood || a.city_district || a.village || a.town || a.city || ''
+					const data: { address?: Record<string, string> } = await res.json()
+					const a: Record<string, string> = data.address ?? {}
+					const locality =
+						a.suburb || a.neighbourhood || a.city_district || a.village || a.town || a.city || ''
 					const text = Object.values(a).join(' ').toLowerCase()
-					// longest names first so "Greater Noida West" wins over "Greater Noida"/"Noida"
+					// longest names first so "Greater Noida" wins over "Noida"
 					const match = [...CITIES].sort((x, y) => y.length - x.length).find((c) => text.includes(c.toLowerCase()))
 					if (match) setCities([match])
 					if (locality) setQuery(locality)
@@ -80,7 +108,7 @@ export default function Others1() {
 				}
 				setLocState('done')
 			},
-			(err) => {
+			(err: GeolocationPositionError) => {
 				setLocState('error')
 				setLocMsg(
 					err.code === 1
@@ -97,21 +125,35 @@ export default function Others1() {
 	const allSelected = cities.length === CITIES.length
 	const cityLabel = !cities.length || allSelected ? 'Cities' : cities.length === 1 ? cities[0] : `${cities.length} Cities`
 	const shownCities = CITIES.filter((c) => c.toLowerCase().includes(cityQuery.toLowerCase()))
-	const toggle = (list, v) => (list.includes(v) ? list.filter((x) => x !== v) : [...list, v])
 
 	const params = new URLSearchParams({ category: tab })
 	if (cities.length && !allSelected) params.set('cities', cities.join(','))
 	if (query) params.set('q', query)
-	if (coords) { params.set('lat', coords.lat.toFixed(5)); params.set('lng', coords.lng.toFixed(5)) }
-	if (range[0] > 0) params.set('minBudget', range[0])
-	if (range[1] < MAX_BUDGET) params.set('maxBudget', range[1])
-	Object.entries(sel).forEach(([k, v]) => v.length && params.set(k, v.join(',')))
+	if (coords) {
+		params.set('lat', coords.lat.toFixed(5))
+		params.set('lng', coords.lng.toFixed(5))
+	}
+	if (range[0] > 0) params.set('minBudget', String(range[0]))
+	if (range[1] < MAX_BUDGET) params.set('maxBudget', String(range[1]))
+	;(Object.entries(sel) as [FilterKey, string[]][]).forEach(([k, v]) => {
+		if (v.length) params.set(k, v.join(','))
+	})
 	const href = `/search-result?${params.toString()}`
 
-	const active = TABS.find((t) => t.id === tab)
-	const current = SECTIONS.find((s) => s.key === section)
-	const pct = (n) => (n / MAX_BUDGET) * 100
-	const badge = (s) => (s.key === 'budget' ? (range[0] > 0 || range[1] < MAX_BUDGET ? '•' : 0) : sel[s.key].length)
+	// Safe lookups (never undefined)
+	const active: Tab = TABS.find((t) => t.id === tab) ?? TABS[0]!
+	const current: Section = SECTIONS.find((s) => s.key === section) ?? SECTIONS[0]!
+	const isBudget = current.key === 'budget'
+	const filterKey = current.key as FilterKey // only used when !isBudget
+	const currentOptions: string[] = current.options ?? []
+	const selectedNow: string[] = isBudget ? [] : sel[filterKey]
+
+	const pct = (n: number) => (n / MAX_BUDGET) * 100
+	const badge = (s: Section): string | number => {
+		if (s.key === 'budget') return range[0] > 0 || range[1] < MAX_BUDGET ? '•' : 0
+		return sel[s.key].length
+	}
+	const toggleOption = (o: string) => setSel({ ...sel, [filterKey]: toggle(sel[filterKey], o) })
 
 	return (
 		<div className="others-section-area">
@@ -194,26 +236,26 @@ export default function Others1() {
 											<div className="rs-body">
 												<div className="rs-title">
 													{current.title}
-													{current.key === 'budget' && `: ${inr(range[0])} - ${inr(range[1])}${range[1] >= MAX_BUDGET ? '+' : ''}`}
+													{isBudget && `: ${inr(range[0])} - ${inr(range[1])}${range[1] >= MAX_BUDGET ? '+' : ''}`}
 												</div>
 
-												{current.key === 'budget' ? (
+												{isBudget ? (
 													<div className="rs-slider">
 														<div className="rs-track" />
 														<div className="rs-fill" style={{ left: `${pct(range[0])}%`, right: `${100 - pct(range[1])}%` }} />
 														<input type="range" min={0} max={MAX_BUDGET} step={1000} value={range[0]}
-															onChange={(e) => setRange([Math.min(+e.target.value, range[1]), range[1]])} />
+															onChange={(e) => setRange([Math.min(Number(e.target.value), range[1]), range[1]])} />
 														<input type="range" min={0} max={MAX_BUDGET} step={1000} value={range[1]}
-															onChange={(e) => setRange([range[0], Math.max(+e.target.value, range[0])])} />
+															onChange={(e) => setRange([range[0], Math.max(Number(e.target.value), range[0])])} />
 													</div>
 												) : current.checkbox ? (
 													<div className="rs-boxes">
-														{current.options.map((o) => {
-															const on = sel[current.key].includes(o)
+														{currentOptions.map((o) => {
+															const on = selectedNow.includes(o)
 															return (
 																<button type="button" key={o} className={`rs-box${on ? ' on' : ''}`}
 																	style={{ border: 0, background: 'none', padding: 0 }} aria-pressed={on}
-																	onClick={() => setSel({ ...sel, [current.key]: toggle(sel[current.key], o) })}>
+																	onClick={() => toggleOption(o)}>
 																	<i>{on ? '✓' : ''}</i> {o}
 																</button>
 															)
@@ -221,11 +263,11 @@ export default function Others1() {
 													</div>
 												) : (
 													<div className="rs-chips">
-														{current.options.map((o) => (
+														{currentOptions.map((o) => (
 															<button type="button" key={o}
-																className={`rs-chip${sel[current.key].includes(o) ? ' on' : ''}`}
-																aria-pressed={sel[current.key].includes(o)}
-																onClick={() => setSel({ ...sel, [current.key]: toggle(sel[current.key], o) })}>
+																className={`rs-chip${selectedNow.includes(o) ? ' on' : ''}`}
+																aria-pressed={selectedNow.includes(o)}
+																onClick={() => toggleOption(o)}>
 																{o}
 															</button>
 														))}
